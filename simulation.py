@@ -35,19 +35,11 @@ class Sim:
     def _run(self): # csv data output
         """Filters through outbound orders that fit in the AutoStore and updates the stock in the system after a pick"""
         
-        self.logger.info("Application Started")
-        
-        #if self.bins_list is None: # Ensure bins_list is initialized
-        #    self.logger.error("bins_list is not initialized")
-        #    raise ValueError("bins_list is not initialized.")
-        
         sim_progress_bar = st.progress(0, text = "simulation progress ... ") # Progress Bar to load how it is being simulated
         self.num_rows = len(self.pick_orders)
         self.logger.info(f"Processing {self.num_rows} orders")
 
         st.button(label="stop and save", key="stop_button")
-
-        #self.debug_bins_list()
         
         for i, row in self.pick_orders.iterrows(): # loop through order / outbound data: 
             
@@ -119,8 +111,6 @@ class Sim:
                     if qty_needed < qty_in_bin:
                         self.logger.debug(f"sku {target_sku} successfully picked and has units remaining in prio bin")
 
-
-
                     # if qty_needed = qty_in_bin, need to mark the bin as empty
                     elif qty_needed == qty_in_bin:
                         self.logger.info(f" sku {target_sku} picked all items in compartment {compartment_id} of bin {prio_bin}. Now it will be marked empty.")
@@ -170,8 +160,6 @@ class Sim:
                         
                         MasterDataSets.update_bin_qty(prio_bin, compartment_id, qty_picked)
                         qty_remaining -= qty_picked
-
-                        ###### Marking Bin to empty: 
                         
                         bin_info = MasterDataSets.get_bin_compartment_contents(prio_bin, target_sku) 
                         if bin_info['qty_in_bin'].values[0] == 0: # Mark bin as empty if it is fully used
@@ -189,7 +177,6 @@ class Sim:
                                     self._reassign_priorities(target_sku) 
                                     self._update_sku_live_prio_bin(target_sku)
                                     self.update_bin_capacity_df(restock = False, empty= True, bin_id=prio_bin)  # updates qty in bins_capacity_df
-
                             else:
                                 self.logger.warning(f"Issue marking bin {prio_bin} compartment id: {compartment_id} as empty")
                 if check_restock is True:
@@ -216,7 +203,6 @@ class Sim:
         pick_orders_output_csv = self.pick_orders.to_csv(index = False)
         st.session_state['count_insufficient_picks'] = self.track_insufficient_picks # integer
 
-
         count_line_no_fits = len(self.non_fit_pick_orders)
         count_line_fits = len(pick_orders_df)
         count_lines_excluded = len(self.excluded_pick_orders)
@@ -237,9 +223,7 @@ class Sim:
         self.pick_orders.at[i, 'bins_above'] = bins_above
         self.pick_orders.at[i, 'stack'] = stack # Debug Command
         self.pick_orders.at[i, 'bins_per_line'] = self.bins_per_line
-        self.pick_orders.at[i, 'qty in system before pick'] = full_system_qty
-        #self.pick_orders.at[i, 'system qty remaining'] = self.qty_in_system_post_pick
-                     
+        self.pick_orders.at[i, 'qty in system before pick'] = full_system_qty          
 
     def _pick(self, bin_id, sku, target_stack_id):
         """gets depth of chosen bin and brings it to the top of the stack, updates the pick_orders qty remaining in syst"""
@@ -293,11 +277,9 @@ class Sim:
 
         target_mask = MasterDataSets.bin_content_live_df['sku'] == target_sku
 
-        # If no bins contain the target SKU, return original dataframes
-        if not target_mask.any():
+        if not target_mask.any(): # If no bins contain the target SKU, return original dataframes
             self.logger.error(f"No bins found containing {target_sku}")
             return
-        
         # Decrement priorities for all bins containing the target SKU
         MasterDataSets.bin_content_live_df.loc[target_mask, 'priority'] = MasterDataSets.bin_content_live_df.loc[target_mask, 'priority'] - 1
         
@@ -421,8 +403,7 @@ class Sim:
 
     def restock_compartment(self, bin_id, compartment_id, sku, qty, priority):
         """Restocks given bin and compartment id with the given sku, qty, and priority.
-        Returns True if successful and False if unsuccessful."""
-        
+        Returns True if successful and False if unsuccessful."""  
         # Verify that the bin and compartment exist
         bin_comp_mask = (MasterDataSets.bin_content_live_df['bin_id'] == bin_id) & (MasterDataSets.bin_content_live_df['compartment_id'] == compartment_id)
         if not any(bin_comp_mask):
@@ -556,8 +537,7 @@ class Sim:
                 'bin_count': len(sku_bins)
             })
 
-        # Sort by potential benefit (more bins used = higher consolidation potential
-        candidates.sort(key=lambda x: x['bin_count'], reverse=True)
+        candidates.sort(key=lambda x: x['bin_count'], reverse=True) # Sort by potential benefit (more bins used = higher consolidation potential
 
         return candidates
     
@@ -565,11 +545,8 @@ class Sim:
     def _consolidate_sku(self, sku, bins_with_sku, total_qty, full_bin_qty, optimal_bins_needed):
         """Consolidate a specific SKU from multiple bins into fewer bins. 
         returns number of compartments freed"""
-
         
-
-        # Sort bins by priority to maintain priority order
-        bins_with_sku.sort(key=lambda x: x['priority'])
+        bins_with_sku.sort(key=lambda x: x['priority']) # Sort bins by priority to maintain priority order
 
         # Step 1: Empty all current bins of this SKU
         for bin_data in bins_with_sku:
@@ -620,8 +597,6 @@ class Sim:
         # Calculate compartments freed
         original_bins = len(bins_with_sku)
         compartments_freed = original_bins - bins_used
-
-        # Need to add - make sure to update new prio 1 bin for sku
 
         return max(0, compartments_freed)
     

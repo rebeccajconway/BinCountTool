@@ -23,8 +23,6 @@ st.set_page_config(
 help_sidebar()
 init_session_states()
 
-
-
 st.header("Calculations Page")
 st.write("This is the page where you will configure the tool, run the calculations and see the summarized results and download files.") 
 
@@ -37,14 +35,12 @@ st.session_state['induction_toggle'] = True # Always True - Scenario where we wo
 st.subheader("Bin Count Tool Inputs")
 sku_file_label, sku_file = select_file(HelpTexts.sku_master, ["csv"], "Upload SKU Master File (.csv):")
 
-
 st.subheader("Input Parameters")
 st.selectbox("Bin Type:", [220, 330, 425], index=1, key="bin_type")
 st.selectbox("Max Bin Utilization (%):", list(range(50, 105, 5)), index=4, help=HelpTexts.bin_utilization, key="bin_utilization")
 st.selectbox("Max Compartments:", [1, 2, 4, 8], index=3, help=HelpTexts.max_compartments, key="max_compartments")
 st.number_input("Max Bin Weight (kg)", min_value=0, value=25, help=HelpTexts.max_weight, key="bin_weight_limit")
 st.number_input("Max Bins per SKU", min_value=1, value=20, help=HelpTexts.max_bins_per_sku, key="max_bins_per_sku")
-
 
 if st.session_state['dig_sim_toggle'] is True:
     st.subheader("Bin Distribution Simulation Inputs")
@@ -58,7 +54,6 @@ if st.session_state['dig_sim_toggle'] is True:
 
     if st.session_state["induction_toggle"]: #alwyas true for now
         st.number_input("Restock percent", min_value = 0, max_value= 95, value=20, help=HelpTexts.restock_percent, key="restock_percent") 
-
 
 st.subheader("Delimiters and Separators")
 st.text_input("Delimiter:", value=",", key= "sku_delimiter")
@@ -80,7 +75,6 @@ with st.sidebar:
             "Min Qty Per Bin": st.text_input("Min Qty Per Bin Column Name:", value="Min Qty Per Bin"),
             "Qty Stored": st.text_input("Qty Stored Column Name:", value="Qty Stored"),
         }
-
 
 can_run = False
 if sku_file is not None:
@@ -139,10 +133,8 @@ if "can_run" not in st.session_state or not st.session_state["can_run"]:
     st.header("Results")
     st.stop()
 
-
 if st.button(label="Calculate"):
     st.session_state['Calculate'] = True
-    
     
     st.session_state['start_time'] = time.time()
     with st.spinner("Tool is running...", show_time= True):
@@ -164,19 +156,18 @@ if st.button(label="Calculate"):
             else:
                 if st.session_state['dig_sim_toggle'] is True:
                     
-                    #print(f" dig_sim_toggle value (Run Tab) is: {st.session_state['dig_sim_toggle']}")
+                    # Set up Bins
                     outbound_df = uf_to_df(outbound_uf)
-                    # skus_df = bincount.skus # should be the same as bincount_output_df
                     bins_instance = Bins()
                     bins_list, max_filled_bins = bins_instance._run(bincount_output_df)
                     st.session_state['bins_list_init'] = bins_list
 
+                    # Set up Stacks
                     stack_instance = Start_Stacks(bins_list)
                     stack_contents = stack_instance._run(max_filled_bins, bins_list) # list stack_id with bin_id in each stack
                     
                     bincountoutput = bincount.output
                     
-                    st.write(f" stack contents data type is: {type(stack_contents)}")
                     MasterDataSets.initialize_from_data(bincountoutput, bins_list, inputs, stack_contents)
 
                     if outbound_df is None:
@@ -185,7 +176,6 @@ if st.button(label="Calculate"):
                         prep_instance = CleanData()
                         prepped_outbound_df = prep_instance._prep_outbound(outbound_df) # num_incomplete_outbound tracks rows missing either sku, timestamp or qty
                         pick_orders = prepped_outbound_df # can use consistent variable names throughout and remove this
-
                        
                     elif outbound_df is None:
                         print("No Outbound CSV file detected or it is read improperly")
@@ -199,7 +189,6 @@ if st.button(label="Calculate"):
                         st.session_state['simulation_results'] = simulation_results
                         st.session_state['simulation_results_csv']=simulation_results
                         st.session_state['simulation_results_df']=simulation_results_df
-                        #st.write(simulation_results_df.head())
                     
                     else:
                         st.warning("Please upload a valid outbound csv file") # this should already be checked previously
@@ -208,11 +197,8 @@ if st.button(label="Calculate"):
                         simulation_results_df = st.session_state['pick_orders_df']
                 else:
                     print("error in calculations for simulation")
-            # writing output to session state so it can be called in the results page
-
             
             st.session_state["results_ready"] = True 
-            print(f"results ready session_state is {st.session_state['results_ready']}")
             elapsed_time = time.time() - st.session_state['start_time']
             formatted_time_elapsed = str(datetime.timedelta(seconds=int(elapsed_time)))
             st.session_state['formatted_time_elapsed'] = formatted_time_elapsed
@@ -233,7 +219,6 @@ if st.session_state['stop_run'] is True:
         elif isinstance(st.session_state['pick_orders_df'], str):
             st.session_state['pick_orders_df'] = pd.read_csv(io.StringIO(st.session_state['pick_orders_df']))
     
-    st.write(f"pick order lines in as type: {type(st.session_state['pick_orders_df'])}")
     simulation_results_df = st.session_state['pick_orders_df']
     simulation_results = st.session_state['pick_orders_output_csv']
 
@@ -242,7 +227,6 @@ if st.session_state['stop_run'] is True:
     st.session_state['simulation_results_df']= simulation_results_df 
     
     st.session_state["results_ready"] = True 
-    print(f"results ready session_state is {st.session_state['results_ready']}")
     elapsed_time = time.time() - st.session_state['start_time']
     formatted_time_elapsed = str(datetime.timedelta(seconds=int(elapsed_time)))
     st.session_state['formatted_time_elapsed'] = formatted_time_elapsed
@@ -270,6 +254,7 @@ elif st.session_state["results_ready"] is True:
 
 
     tab1, tab2, tab3, tab4, tab5 = st.tabs(['Summary', 'Simulation Results', 'Sanity Check', 'File Download', 'Debugging'])
+
 
     with tab1:
         st.subheader("Summary Statistics")
@@ -336,7 +321,7 @@ elif st.session_state["results_ready"] is True:
 
     with tab2:
         st.subheader("Bin Distribution Simulation Results")
-        # Example chart - replace with your actual simulation data
+        # Graph of Bin Distribution over days
         if st.session_state['dig_sim_toggle'] is True:
             col1, col2 = st.columns(2)
             col1.metric(label = "Number of Incomplete Rows in Outbound Data", value = st.session_state['number_incomplete_outbound'])
@@ -352,7 +337,6 @@ elif st.session_state["results_ready"] is True:
 
                 pick_orders_df_filtered = pick_orders_df.dropna(subset=['bins_above'])
 
-                # st.write(pick_orders_df_filtered)
                 timestamp_depth_pivot = pd.pivot_table(
                     data = pick_orders_df_filtered, 
                     values = "bins_above", 
@@ -375,7 +359,7 @@ elif st.session_state["results_ready"] is True:
                 # Merge the two pivot tables
                 combined_pivot = pd.concat([timestamp_depth_pivot, count_pivot], axis=1)
 
-                # Optionally, rename the bins_above column for clarity
+                # rename the bins_above column for clarity
                 combined_pivot.rename(columns={"bins_above": "avg_bins_above"}, inplace=True)
 
                 # Display the combined pivot table
@@ -469,7 +453,6 @@ elif st.session_state["results_ready"] is True:
             max_height = st.session_state['bincount_output_df']['Height (in)'].max()
             median_height = st.session_state['bincount_output_df']['Height (in)'].median()
         
-        
         col1, col2 = st.columns(2)
         st.write("Weight: ")
         with col1: st.metric(label="Max", value = f"{max_weight:.2f} {weight_units}")
@@ -490,13 +473,9 @@ elif st.session_state["results_ready"] is True:
         with col1: st.metric(label="Max", value = f"{max_height:.2f} {length_units}")
         with col2: st.metric(label="Median", value = f"{median_height:.2f} {length_units}")
 
-        
-
-
     with tab4:
         st.subheader("Downloadable Files")
 
-        print(f"value of dig sim toggle is {st.session_state['dig_sim_toggle']}")
         download_button(st.session_state['bincount.output'], "bincounttool_output", "Download SKUs CSV File") 
         
     with tab5:
