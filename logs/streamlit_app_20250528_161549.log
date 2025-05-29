@@ -1,0 +1,906 @@
+2025-05-28 16:15:49,509 - streamlit_logger_20250528_161549 - INFO - New logger 'streamlit_logger_20250528_161549' initialized successfully
+2025-05-28 16:15:49,509 - streamlit_logger_20250528_161549 - INFO - Application Started
+2025-05-28 16:15:49,510 - streamlit_logger_20250528_161549 - INFO - Processing 154288 orders
+2025-05-28 16:15:49,586 - streamlit_logger_20250528_161549 - DEBUG - Processing order 1/154288: SKU=AL3Z6038D, Qty=3
+2025-05-28 16:15:49,593 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D in bin 453 qty in bin 5
+2025-05-28 16:15:49,593 - streamlit_logger_20250528_161549 - INFO - 3 units of sku AL3Z6038D can be picked entirely from bin 453 with pre-pick qty of 5
+2025-05-28 16:15:49,598 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 8 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,610 - streamlit_logger_20250528_161549 - DEBUG - sku AL3Z6038D successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,611 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,612 - streamlit_logger_20250528_161549 - DEBUG - Processing order 2/154288: SKU=F1EZ17626B, Qty=1
+2025-05-28 16:15:49,615 - streamlit_logger_20250528_161549 - INFO - SKU F1EZ17626B was in given data, but does not fit in the AS
+2025-05-28 16:15:49,615 - streamlit_logger_20250528_161549 - DEBUG - Processing order 3/154288: SKU=CJ5Z7821453D, Qty=1
+2025-05-28 16:15:49,616 - streamlit_logger_20250528_161549 - INFO - SKU CJ5Z7821453D was not in given sku data
+2025-05-28 16:15:49,616 - streamlit_logger_20250528_161549 - DEBUG - Processing order 4/154288: SKU=GL3Z99290D12AB, Qty=1
+2025-05-28 16:15:49,617 - streamlit_logger_20250528_161549 - INFO - SKU GL3Z99290D12AB was not in given sku data
+2025-05-28 16:15:49,617 - streamlit_logger_20250528_161549 - DEBUG - Processing order 5/154288: SKU=M1PZ19G490C, Qty=1
+2025-05-28 16:15:49,621 - streamlit_logger_20250528_161549 - INFO - sku M1PZ19G490C in bin 1975 qty in bin 5
+2025-05-28 16:15:49,622 - streamlit_logger_20250528_161549 - INFO - 1 units of sku M1PZ19G490C can be picked entirely from bin 1975 with pre-pick qty of 5
+2025-05-28 16:15:49,624 - streamlit_logger_20250528_161549 - INFO - sku M1PZ19G490C had 8 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,625 - streamlit_logger_20250528_161549 - DEBUG - sku M1PZ19G490C successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,625 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,626 - streamlit_logger_20250528_161549 - DEBUG - Processing order 6/154288: SKU=LJ8Z16103B, Qty=1
+2025-05-28 16:15:49,627 - streamlit_logger_20250528_161549 - INFO - SKU LJ8Z16103B was not in given sku data
+2025-05-28 16:15:49,628 - streamlit_logger_20250528_161549 - DEBUG - Processing order 7/154288: SKU=5L8Z17526AA, Qty=1
+2025-05-28 16:15:49,628 - streamlit_logger_20250528_161549 - INFO - SKU 5L8Z17526AA was not in given sku data
+2025-05-28 16:15:49,628 - streamlit_logger_20250528_161549 - DEBUG - Processing order 8/154288: SKU=HC3Z6038B, Qty=8
+2025-05-28 16:15:49,633 - streamlit_logger_20250528_161549 - INFO - sku HC3Z6038B in bin 1390 qty in bin 10
+2025-05-28 16:15:49,633 - streamlit_logger_20250528_161549 - INFO - 8 units of sku HC3Z6038B can be picked entirely from bin 1390 with pre-pick qty of 10
+2025-05-28 16:15:49,635 - streamlit_logger_20250528_161549 - INFO - sku HC3Z6038B had 7 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,635 - streamlit_logger_20250528_161549 - DEBUG - sku HC3Z6038B successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,636 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,637 - streamlit_logger_20250528_161549 - DEBUG - Processing order 9/154288: SKU=7C3Z16796A, Qty=1
+2025-05-28 16:15:49,638 - streamlit_logger_20250528_161549 - INFO - SKU 7C3Z16796A was not in given sku data
+2025-05-28 16:15:49,638 - streamlit_logger_20250528_161549 - DEBUG - Processing order 10/154288: SKU=KB3Z21275A37AA, Qty=1
+2025-05-28 16:15:49,639 - streamlit_logger_20250528_161549 - INFO - SKU KB3Z21275A37AA was not in given sku data
+2025-05-28 16:15:49,640 - streamlit_logger_20250528_161549 - DEBUG - Processing order 11/154288: SKU=AL3Z6038D, Qty=1
+2025-05-28 16:15:49,644 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D in bin 453 qty in bin 2
+2025-05-28 16:15:49,645 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AL3Z6038D can be picked entirely from bin 453 with pre-pick qty of 2
+2025-05-28 16:15:49,647 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,647 - streamlit_logger_20250528_161549 - DEBUG - sku AL3Z6038D successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,648 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,649 - streamlit_logger_20250528_161549 - DEBUG - Processing order 12/154288: SKU=7A2Z17D942A, Qty=1
+2025-05-28 16:15:49,650 - streamlit_logger_20250528_161549 - INFO - SKU 7A2Z17D942A was not in given sku data
+2025-05-28 16:15:49,650 - streamlit_logger_20250528_161549 - DEBUG - Processing order 13/154288: SKU=FL3Z14A411D, Qty=1
+2025-05-28 16:15:49,651 - streamlit_logger_20250528_161549 - INFO - SKU FL3Z14A411D was not in given sku data
+2025-05-28 16:15:49,651 - streamlit_logger_20250528_161549 - DEBUG - Processing order 14/154288: SKU=AW1Z5484D, Qty=1
+2025-05-28 16:15:49,654 - streamlit_logger_20250528_161549 - INFO - sku AW1Z5484D in bin 5051 qty in bin 1
+2025-05-28 16:15:49,654 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AW1Z5484D can be picked entirely from bin 5051 with pre-pick qty of 1
+2025-05-28 16:15:49,657 - streamlit_logger_20250528_161549 - INFO - sku AW1Z5484D had 6 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,657 - streamlit_logger_20250528_161549 - INFO -  sku AW1Z5484D picked all items in compartment 8 of bin 5051. Now it will be marked empty.
+2025-05-28 16:15:49,658 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0
+2025-05-28 16:15:49,659 - streamlit_logger_20250528_161549 - INFO - success marking bin 5051 compartment 8 as empty
+2025-05-28 16:15:49,662 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku AW1Z5484D
+2025-05-28 16:15:49,663 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,664 - streamlit_logger_20250528_161549 - DEBUG - Processing order 15/154288: SKU=AL3Z6038D, Qty=1
+2025-05-28 16:15:49,671 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D in bin 453 qty in bin 1.0
+2025-05-28 16:15:49,671 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AL3Z6038D can be picked entirely from bin 453 with pre-pick qty of 1.0
+2025-05-28 16:15:49,674 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,674 - streamlit_logger_20250528_161549 - INFO -  sku AL3Z6038D picked all items in compartment 1 of bin 453. Now it will be marked empty.
+2025-05-28 16:15:49,675 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,676 - streamlit_logger_20250528_161549 - INFO - success marking bin 453 compartment 1 as empty
+2025-05-28 16:15:49,680 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,682 - streamlit_logger_20250528_161549 - DEBUG - Processing order 16/154288: SKU=HC3Z6038B, Qty=1
+2025-05-28 16:15:49,688 - streamlit_logger_20250528_161549 - INFO - sku HC3Z6038B in bin 1390 qty in bin 2.0
+2025-05-28 16:15:49,688 - streamlit_logger_20250528_161549 - INFO - 1 units of sku HC3Z6038B can be picked entirely from bin 1390 with pre-pick qty of 2.0
+2025-05-28 16:15:49,692 - streamlit_logger_20250528_161549 - INFO - sku HC3Z6038B had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,692 - streamlit_logger_20250528_161549 - DEBUG - sku HC3Z6038B successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,693 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,694 - streamlit_logger_20250528_161549 - DEBUG - Processing order 17/154288: SKU=G2BZ5426810A, Qty=1
+2025-05-28 16:15:49,695 - streamlit_logger_20250528_161549 - INFO - SKU G2BZ5426810A was not in given sku data
+2025-05-28 16:15:49,695 - streamlit_logger_20250528_161549 - DEBUG - Processing order 18/154288: SKU=L1MZ14A099N, Qty=1
+2025-05-28 16:15:49,696 - streamlit_logger_20250528_161549 - INFO - SKU L1MZ14A099N was not in given sku data
+2025-05-28 16:15:49,696 - streamlit_logger_20250528_161549 - DEBUG - Processing order 19/154288: SKU=ML3Z10E929CBA, Qty=1
+2025-05-28 16:15:49,701 - streamlit_logger_20250528_161549 - INFO - sku ML3Z10E929CBA in bin 3152 qty in bin 1.0
+2025-05-28 16:15:49,701 - streamlit_logger_20250528_161549 - INFO - 1 units of sku ML3Z10E929CBA can be picked entirely from bin 3152 with pre-pick qty of 1.0
+2025-05-28 16:15:49,703 - streamlit_logger_20250528_161549 - INFO - sku ML3Z10E929CBA had 6 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,703 - streamlit_logger_20250528_161549 - INFO -  sku ML3Z10E929CBA picked all items in compartment 2 of bin 3152. Now it will be marked empty.
+2025-05-28 16:15:49,705 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,706 - streamlit_logger_20250528_161549 - INFO - success marking bin 3152 compartment 2 as empty
+2025-05-28 16:15:49,710 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku ML3Z10E929CBA
+2025-05-28 16:15:49,711 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,712 - streamlit_logger_20250528_161549 - DEBUG - Processing order 20/154288: SKU=ML3Z1627204A, Qty=1
+2025-05-28 16:15:49,713 - streamlit_logger_20250528_161549 - INFO - SKU ML3Z1627204A was not in given sku data
+2025-05-28 16:15:49,713 - streamlit_logger_20250528_161549 - DEBUG - Processing order 21/154288: SKU=BE8Z2B292A, Qty=1
+2025-05-28 16:15:49,714 - streamlit_logger_20250528_161549 - INFO - SKU BE8Z2B292A was not in given sku data
+2025-05-28 16:15:49,714 - streamlit_logger_20250528_161549 - DEBUG - Processing order 22/154288: SKU=KB3Z2162A, Qty=1
+2025-05-28 16:15:49,715 - streamlit_logger_20250528_161549 - INFO - SKU KB3Z2162A was not in given sku data
+2025-05-28 16:15:49,715 - streamlit_logger_20250528_161549 - DEBUG - Processing order 23/154288: SKU=F37Z17795A, Qty=1
+2025-05-28 16:15:49,719 - streamlit_logger_20250528_161549 - INFO - sku F37Z17795A in bin 4381 qty in bin 1.0
+2025-05-28 16:15:49,719 - streamlit_logger_20250528_161549 - INFO - 1 units of sku F37Z17795A can be picked entirely from bin 4381 with pre-pick qty of 1.0
+2025-05-28 16:15:49,720 - streamlit_logger_20250528_161549 - INFO - sku F37Z17795A had 2 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,721 - streamlit_logger_20250528_161549 - INFO -  sku F37Z17795A picked all items in compartment 4 of bin 4381. Now it will be marked empty.
+2025-05-28 16:15:49,722 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,722 - streamlit_logger_20250528_161549 - INFO - success marking bin 4381 compartment 4 as empty
+2025-05-28 16:15:49,725 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku F37Z17795A
+2025-05-28 16:15:49,726 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,728 - streamlit_logger_20250528_161549 - DEBUG - Processing order 24/154288: SKU=BK3Z1551400C, Qty=1
+2025-05-28 16:15:49,729 - streamlit_logger_20250528_161549 - INFO - SKU BK3Z1551400C was not in given sku data
+2025-05-28 16:15:49,729 - streamlit_logger_20250528_161549 - DEBUG - Processing order 25/154288: SKU=AL3Z6038D, Qty=1
+2025-05-28 16:15:49,735 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D in bin 454 qty in bin 5.0
+2025-05-28 16:15:49,736 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AL3Z6038D can be picked entirely from bin 454 with pre-pick qty of 5.0
+2025-05-28 16:15:49,739 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 8 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,739 - streamlit_logger_20250528_161549 - DEBUG - sku AL3Z6038D successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,740 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,741 - streamlit_logger_20250528_161549 - DEBUG - Processing order 26/154288: SKU=H1BZ18808A, Qty=1
+2025-05-28 16:15:49,742 - streamlit_logger_20250528_161549 - INFO - SKU H1BZ18808A was not in given sku data
+2025-05-28 16:15:49,742 - streamlit_logger_20250528_161549 - DEBUG - Processing order 27/154288: SKU=LJ7Z17E810AA, Qty=1
+2025-05-28 16:15:49,742 - streamlit_logger_20250528_161549 - INFO - SKU LJ7Z17E810AA was not in given sku data
+2025-05-28 16:15:49,743 - streamlit_logger_20250528_161549 - DEBUG - Processing order 28/154288: SKU=6L2Z7D483N, Qty=1
+2025-05-28 16:15:49,747 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7D483N in bin 4924 qty in bin 1.0
+2025-05-28 16:15:49,747 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 6L2Z7D483N can be picked entirely from bin 4924 with pre-pick qty of 1.0
+2025-05-28 16:15:49,750 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7D483N had 5 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,750 - streamlit_logger_20250528_161549 - INFO -  sku 6L2Z7D483N picked all items in compartment 5 of bin 4924. Now it will be marked empty.
+2025-05-28 16:15:49,751 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,752 - streamlit_logger_20250528_161549 - INFO - success marking bin 4924 compartment 5 as empty
+2025-05-28 16:15:49,756 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 6L2Z7D483N
+2025-05-28 16:15:49,758 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,759 - streamlit_logger_20250528_161549 - DEBUG - Processing order 29/154288: SKU=AL3Z6038D, Qty=2
+2025-05-28 16:15:49,762 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D in bin 454 qty in bin 4.0
+2025-05-28 16:15:49,762 - streamlit_logger_20250528_161549 - INFO - 2 units of sku AL3Z6038D can be picked entirely from bin 454 with pre-pick qty of 4.0
+2025-05-28 16:15:49,765 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,765 - streamlit_logger_20250528_161549 - DEBUG - sku AL3Z6038D successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,766 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,766 - streamlit_logger_20250528_161549 - DEBUG - Processing order 30/154288: SKU=FT4Z5826800B, Qty=1
+2025-05-28 16:15:49,770 - streamlit_logger_20250528_161549 - INFO - sku FT4Z5826800B in bin 1240 qty in bin 14.0
+2025-05-28 16:15:49,770 - streamlit_logger_20250528_161549 - INFO - 1 units of sku FT4Z5826800B can be picked entirely from bin 1240 with pre-pick qty of 14.0
+2025-05-28 16:15:49,772 - streamlit_logger_20250528_161549 - INFO - sku FT4Z5826800B had 10 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,773 - streamlit_logger_20250528_161549 - DEBUG - sku FT4Z5826800B successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,773 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,774 - streamlit_logger_20250528_161549 - DEBUG - Processing order 31/154288: SKU=DT1Z17K922AA, Qty=1
+2025-05-28 16:15:49,774 - streamlit_logger_20250528_161549 - INFO - SKU DT1Z17K922AA was not in given sku data
+2025-05-28 16:15:49,775 - streamlit_logger_20250528_161549 - DEBUG - Processing order 32/154288: SKU=FL3Z2282D, Qty=1
+2025-05-28 16:15:49,778 - streamlit_logger_20250528_161549 - INFO - sku FL3Z2282D in bin 1137 qty in bin 16.0
+2025-05-28 16:15:49,778 - streamlit_logger_20250528_161549 - INFO - 1 units of sku FL3Z2282D can be picked entirely from bin 1137 with pre-pick qty of 16.0
+2025-05-28 16:15:49,781 - streamlit_logger_20250528_161549 - INFO - sku FL3Z2282D had 16 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,781 - streamlit_logger_20250528_161549 - DEBUG - sku FL3Z2282D successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,782 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,784 - streamlit_logger_20250528_161549 - DEBUG - Processing order 33/154288: SKU=BK3Z8597B, Qty=1
+2025-05-28 16:15:49,784 - streamlit_logger_20250528_161549 - INFO - SKU BK3Z8597B was not in given sku data
+2025-05-28 16:15:49,785 - streamlit_logger_20250528_161549 - DEBUG - Processing order 34/154288: SKU=BV6Z3511B, Qty=1
+2025-05-28 16:15:49,785 - streamlit_logger_20250528_161549 - INFO - SKU BV6Z3511B was not in given sku data
+2025-05-28 16:15:49,785 - streamlit_logger_20250528_161549 - DEBUG - Processing order 35/154288: SKU=AL3Z6038D, Qty=5
+2025-05-28 16:15:49,790 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D in bin 454 qty in bin 2.0
+2025-05-28 16:15:49,793 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,797 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,800 - streamlit_logger_20250528_161549 - INFO - sku AL3Z6038D had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,802 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,803 - streamlit_logger_20250528_161549 - DEBUG - Processing order 36/154288: SKU=BB3Z00814A, Qty=1
+2025-05-28 16:15:49,806 - streamlit_logger_20250528_161549 - INFO - sku BB3Z00814A in bin 5054 qty in bin 1.0
+2025-05-28 16:15:49,806 - streamlit_logger_20250528_161549 - INFO - 1 units of sku BB3Z00814A can be picked entirely from bin 5054 with pre-pick qty of 1.0
+2025-05-28 16:15:49,808 - streamlit_logger_20250528_161549 - INFO - sku BB3Z00814A had 11 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,808 - streamlit_logger_20250528_161549 - INFO -  sku BB3Z00814A picked all items in compartment 1 of bin 5054. Now it will be marked empty.
+2025-05-28 16:15:49,809 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,810 - streamlit_logger_20250528_161549 - INFO - success marking bin 5054 compartment 1 as empty
+2025-05-28 16:15:49,813 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku BB3Z00814A
+2025-05-28 16:15:49,814 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,815 - streamlit_logger_20250528_161549 - DEBUG - Processing order 37/154288: SKU=8A1Z16720C, Qty=1
+2025-05-28 16:15:49,818 - streamlit_logger_20250528_161549 - INFO - sku 8A1Z16720C in bin 4963 qty in bin 1.0
+2025-05-28 16:15:49,818 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 8A1Z16720C can be picked entirely from bin 4963 with pre-pick qty of 1.0
+2025-05-28 16:15:49,820 - streamlit_logger_20250528_161549 - INFO - sku 8A1Z16720C had 8 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,820 - streamlit_logger_20250528_161549 - INFO -  sku 8A1Z16720C picked all items in compartment 7 of bin 4963. Now it will be marked empty.
+2025-05-28 16:15:49,821 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,822 - streamlit_logger_20250528_161549 - INFO - success marking bin 4963 compartment 7 as empty
+2025-05-28 16:15:49,826 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 8A1Z16720C
+2025-05-28 16:15:49,827 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,828 - streamlit_logger_20250528_161549 - DEBUG - Processing order 38/154288: SKU=FL1Z78001A08A, Qty=1
+2025-05-28 16:15:49,829 - streamlit_logger_20250528_161549 - INFO - SKU FL1Z78001A08A was not in given sku data
+2025-05-28 16:15:49,829 - streamlit_logger_20250528_161549 - DEBUG - Processing order 39/154288: SKU=EK4Z6127204A, Qty=1
+2025-05-28 16:15:49,829 - streamlit_logger_20250528_161549 - INFO - SKU EK4Z6127204A was not in given sku data
+2025-05-28 16:15:49,829 - streamlit_logger_20250528_161549 - DEBUG - Processing order 40/154288: SKU=BE8Z13N021A, Qty=1
+2025-05-28 16:15:49,830 - streamlit_logger_20250528_161549 - INFO - SKU BE8Z13N021A was not in given sku data
+2025-05-28 16:15:49,830 - streamlit_logger_20250528_161549 - DEBUG - Processing order 41/154288: SKU=8C3Z6758A, Qty=1
+2025-05-28 16:15:49,833 - streamlit_logger_20250528_161549 - INFO - sku 8C3Z6758A in bin 281 qty in bin 8.0
+2025-05-28 16:15:49,833 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 8C3Z6758A can be picked entirely from bin 281 with pre-pick qty of 8.0
+2025-05-28 16:15:49,834 - streamlit_logger_20250528_161549 - INFO - sku 8C3Z6758A had 9 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,835 - streamlit_logger_20250528_161549 - DEBUG - sku 8C3Z6758A successfully picked and has units remaining in prio bin
+2025-05-28 16:15:49,835 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,836 - streamlit_logger_20250528_161549 - DEBUG - Processing order 42/154288: SKU=LJ6Z78239A01AD, Qty=1
+2025-05-28 16:15:49,839 - streamlit_logger_20250528_161549 - INFO - sku LJ6Z78239A01AD in bin 5508 qty in bin 1.0
+2025-05-28 16:15:49,839 - streamlit_logger_20250528_161549 - INFO - 1 units of sku LJ6Z78239A01AD can be picked entirely from bin 5508 with pre-pick qty of 1.0
+2025-05-28 16:15:49,841 - streamlit_logger_20250528_161549 - INFO - sku LJ6Z78239A01AD had 3 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,841 - streamlit_logger_20250528_161549 - INFO -  sku LJ6Z78239A01AD picked all items in compartment 4 of bin 5508. Now it will be marked empty.
+2025-05-28 16:15:49,842 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,843 - streamlit_logger_20250528_161549 - INFO - success marking bin 5508 compartment 4 as empty
+2025-05-28 16:15:49,846 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku LJ6Z78239A01AD
+2025-05-28 16:15:49,848 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,849 - streamlit_logger_20250528_161549 - DEBUG - Processing order 43/154288: SKU=AE8Z7233A, Qty=1
+2025-05-28 16:15:49,853 - streamlit_logger_20250528_161549 - INFO - sku AE8Z7233A in bin 5025 qty in bin 1.0
+2025-05-28 16:15:49,853 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AE8Z7233A can be picked entirely from bin 5025 with pre-pick qty of 1.0
+2025-05-28 16:15:49,856 - streamlit_logger_20250528_161549 - INFO - sku AE8Z7233A had 14 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,856 - streamlit_logger_20250528_161549 - INFO -  sku AE8Z7233A picked all items in compartment 6 of bin 5025. Now it will be marked empty.
+2025-05-28 16:15:49,858 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,859 - streamlit_logger_20250528_161549 - INFO - success marking bin 5025 compartment 6 as empty
+2025-05-28 16:15:49,862 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku AE8Z7233A
+2025-05-28 16:15:49,863 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,864 - streamlit_logger_20250528_161549 - DEBUG - Processing order 44/154288: SKU=FL3Z7H150A, Qty=1
+2025-05-28 16:15:49,869 - streamlit_logger_20250528_161549 - INFO - sku FL3Z7H150A in bin 5334 qty in bin 1.0
+2025-05-28 16:15:49,869 - streamlit_logger_20250528_161549 - INFO - 1 units of sku FL3Z7H150A can be picked entirely from bin 5334 with pre-pick qty of 1.0
+2025-05-28 16:15:49,871 - streamlit_logger_20250528_161549 - INFO - sku FL3Z7H150A had 13 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,871 - streamlit_logger_20250528_161549 - INFO -  sku FL3Z7H150A picked all items in compartment 7 of bin 5334. Now it will be marked empty.
+2025-05-28 16:15:49,873 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,874 - streamlit_logger_20250528_161549 - INFO - success marking bin 5334 compartment 7 as empty
+2025-05-28 16:15:49,878 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku FL3Z7H150A
+2025-05-28 16:15:49,879 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,880 - streamlit_logger_20250528_161549 - DEBUG - Processing order 45/154288: SKU=9L3Z14A706EA, Qty=1
+2025-05-28 16:15:49,881 - streamlit_logger_20250528_161549 - INFO - SKU 9L3Z14A706EA was not in given sku data
+2025-05-28 16:15:49,881 - streamlit_logger_20250528_161549 - DEBUG - Processing order 46/154288: SKU=9L3Z9G444B, Qty=1
+2025-05-28 16:15:49,882 - streamlit_logger_20250528_161549 - INFO - SKU 9L3Z9G444B was not in given sku data
+2025-05-28 16:15:49,882 - streamlit_logger_20250528_161549 - DEBUG - Processing order 47/154288: SKU=7L1Z7A262A, Qty=1
+2025-05-28 16:15:49,890 - streamlit_logger_20250528_161549 - INFO - sku 7L1Z7A262A in bin 4273 qty in bin 1.0
+2025-05-28 16:15:49,890 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 7L1Z7A262A can be picked entirely from bin 4273 with pre-pick qty of 1.0
+2025-05-28 16:15:49,893 - streamlit_logger_20250528_161549 - INFO - sku 7L1Z7A262A had 16 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,893 - streamlit_logger_20250528_161549 - INFO -  sku 7L1Z7A262A picked all items in compartment 2 of bin 4273. Now it will be marked empty.
+2025-05-28 16:15:49,896 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,897 - streamlit_logger_20250528_161549 - INFO - success marking bin 4273 compartment 2 as empty
+2025-05-28 16:15:49,902 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 7L1Z7A262A
+2025-05-28 16:15:49,904 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,904 - streamlit_logger_20250528_161549 - DEBUG - Processing order 48/154288: SKU=H1BZ5826801A, Qty=1
+2025-05-28 16:15:49,909 - streamlit_logger_20250528_161549 - INFO - sku H1BZ5826801A in bin 2833 qty in bin 1.0
+2025-05-28 16:15:49,910 - streamlit_logger_20250528_161549 - INFO - 1 units of sku H1BZ5826801A can be picked entirely from bin 2833 with pre-pick qty of 1.0
+2025-05-28 16:15:49,912 - streamlit_logger_20250528_161549 - INFO - sku H1BZ5826801A had 13 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,912 - streamlit_logger_20250528_161549 - INFO -  sku H1BZ5826801A picked all items in compartment 1 of bin 2833. Now it will be marked empty.
+2025-05-28 16:15:49,913 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,915 - streamlit_logger_20250528_161549 - INFO - success marking bin 2833 compartment 1 as empty
+2025-05-28 16:15:49,919 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku H1BZ5826801A
+2025-05-28 16:15:49,921 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,922 - streamlit_logger_20250528_161549 - DEBUG - Processing order 49/154288: SKU=6L2Z7H365AA, Qty=1
+2025-05-28 16:15:49,928 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7H365AA in bin 4926 qty in bin 1.0
+2025-05-28 16:15:49,928 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 6L2Z7H365AA can be picked entirely from bin 4926 with pre-pick qty of 1.0
+2025-05-28 16:15:49,931 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7H365AA had 1 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,931 - streamlit_logger_20250528_161549 - INFO -  sku 6L2Z7H365AA picked all items in compartment 1 of bin 4926. Now it will be marked empty.
+2025-05-28 16:15:49,934 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,935 - streamlit_logger_20250528_161549 - INFO - success marking bin 4926 compartment 1 as empty
+2025-05-28 16:15:49,940 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 6L2Z7H365AA
+2025-05-28 16:15:49,942 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,944 - streamlit_logger_20250528_161549 - DEBUG - Processing order 50/154288: SKU=BK3Z9J280A, Qty=1
+2025-05-28 16:15:49,949 - streamlit_logger_20250528_161549 - INFO - sku BK3Z9J280A in bin 2509 qty in bin 1.0
+2025-05-28 16:15:49,949 - streamlit_logger_20250528_161549 - INFO - 1 units of sku BK3Z9J280A can be picked entirely from bin 2509 with pre-pick qty of 1.0
+2025-05-28 16:15:49,952 - streamlit_logger_20250528_161549 - INFO - sku BK3Z9J280A had 13 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,952 - streamlit_logger_20250528_161549 - INFO -  sku BK3Z9J280A picked all items in compartment 1 of bin 2509. Now it will be marked empty.
+2025-05-28 16:15:49,954 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,955 - streamlit_logger_20250528_161549 - INFO - success marking bin 2509 compartment 1 as empty
+2025-05-28 16:15:49,960 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku BK3Z9J280A
+2025-05-28 16:15:49,962 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,963 - streamlit_logger_20250528_161549 - DEBUG - Processing order 51/154288: SKU=HU5Z14A411A, Qty=1
+2025-05-28 16:15:49,969 - streamlit_logger_20250528_161549 - INFO - sku HU5Z14A411A in bin 2898 qty in bin 1.0
+2025-05-28 16:15:49,969 - streamlit_logger_20250528_161549 - INFO - 1 units of sku HU5Z14A411A can be picked entirely from bin 2898 with pre-pick qty of 1.0
+2025-05-28 16:15:49,972 - streamlit_logger_20250528_161549 - INFO - sku HU5Z14A411A had 9 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,972 - streamlit_logger_20250528_161549 - INFO -  sku HU5Z14A411A picked all items in compartment 1 of bin 2898. Now it will be marked empty.
+2025-05-28 16:15:49,975 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,976 - streamlit_logger_20250528_161549 - INFO - success marking bin 2898 compartment 1 as empty
+2025-05-28 16:15:49,980 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku HU5Z14A411A
+2025-05-28 16:15:49,982 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:49,983 - streamlit_logger_20250528_161549 - DEBUG - Processing order 52/154288: SKU=BC3Z6A251A, Qty=1
+2025-05-28 16:15:49,984 - streamlit_logger_20250528_161549 - INFO - SKU BC3Z6A251A was not in given sku data
+2025-05-28 16:15:49,984 - streamlit_logger_20250528_161549 - DEBUG - Processing order 53/154288: SKU=ML3Z9D661A, Qty=1
+2025-05-28 16:15:49,985 - streamlit_logger_20250528_161549 - INFO - SKU ML3Z9D661A was not in given sku data
+2025-05-28 16:15:49,985 - streamlit_logger_20250528_161549 - DEBUG - Processing order 54/154288: SKU=CU2Z14S411ASB, Qty=1
+2025-05-28 16:15:49,986 - streamlit_logger_20250528_161549 - INFO - SKU CU2Z14S411ASB was not in given sku data
+2025-05-28 16:15:49,986 - streamlit_logger_20250528_161549 - DEBUG - Processing order 55/154288: SKU=JM5Z7G100B, Qty=1
+2025-05-28 16:15:49,991 - streamlit_logger_20250528_161549 - INFO - sku JM5Z7G100B in bin 5436 qty in bin 1.0
+2025-05-28 16:15:49,991 - streamlit_logger_20250528_161549 - INFO - 1 units of sku JM5Z7G100B can be picked entirely from bin 5436 with pre-pick qty of 1.0
+2025-05-28 16:15:49,994 - streamlit_logger_20250528_161549 - INFO - sku JM5Z7G100B had 11 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:49,995 - streamlit_logger_20250528_161549 - INFO -  sku JM5Z7G100B picked all items in compartment 7 of bin 5436. Now it will be marked empty.
+2025-05-28 16:15:49,997 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:49,998 - streamlit_logger_20250528_161549 - INFO - success marking bin 5436 compartment 7 as empty
+2025-05-28 16:15:50,002 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku JM5Z7G100B
+2025-05-28 16:15:50,003 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,004 - streamlit_logger_20250528_161549 - DEBUG - Processing order 56/154288: SKU=7C3Z3F656C, Qty=1
+2025-05-28 16:15:50,007 - streamlit_logger_20250528_161549 - INFO - sku 7C3Z3F656C in bin 4938 qty in bin 1.0
+2025-05-28 16:15:50,007 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 7C3Z3F656C can be picked entirely from bin 4938 with pre-pick qty of 1.0
+2025-05-28 16:15:50,008 - streamlit_logger_20250528_161549 - INFO - sku 7C3Z3F656C had 12 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,008 - streamlit_logger_20250528_161549 - INFO -  sku 7C3Z3F656C picked all items in compartment 1 of bin 4938. Now it will be marked empty.
+2025-05-28 16:15:50,010 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,010 - streamlit_logger_20250528_161549 - INFO - success marking bin 4938 compartment 1 as empty
+2025-05-28 16:15:50,013 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 7C3Z3F656C
+2025-05-28 16:15:50,015 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,016 - streamlit_logger_20250528_161549 - DEBUG - Processing order 57/154288: SKU=LB5Z7850002C, Qty=1
+2025-05-28 16:15:50,016 - streamlit_logger_20250528_161549 - INFO - SKU LB5Z7850002C was not in given sku data
+2025-05-28 16:15:50,017 - streamlit_logger_20250528_161549 - DEBUG - Processing order 58/154288: SKU=HL3Z7C096A, Qty=1
+2025-05-28 16:15:50,020 - streamlit_logger_20250528_161549 - INFO - sku HL3Z7C096A in bin 5405 qty in bin 1.0
+2025-05-28 16:15:50,020 - streamlit_logger_20250528_161549 - INFO - 1 units of sku HL3Z7C096A can be picked entirely from bin 5405 with pre-pick qty of 1.0
+2025-05-28 16:15:50,021 - streamlit_logger_20250528_161549 - INFO - sku HL3Z7C096A had 16 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,021 - streamlit_logger_20250528_161549 - INFO -  sku HL3Z7C096A picked all items in compartment 2 of bin 5405. Now it will be marked empty.
+2025-05-28 16:15:50,022 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,023 - streamlit_logger_20250528_161549 - INFO - success marking bin 5405 compartment 2 as empty
+2025-05-28 16:15:50,026 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku HL3Z7C096A
+2025-05-28 16:15:50,028 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,028 - streamlit_logger_20250528_161549 - DEBUG - Processing order 59/154288: SKU=DS7Z8K556G, Qty=1
+2025-05-28 16:15:50,032 - streamlit_logger_20250528_161549 - INFO - sku DS7Z8K556G in bin 877 qty in bin 17.0
+2025-05-28 16:15:50,032 - streamlit_logger_20250528_161549 - INFO - 1 units of sku DS7Z8K556G can be picked entirely from bin 877 with pre-pick qty of 17.0
+2025-05-28 16:15:50,034 - streamlit_logger_20250528_161549 - INFO - sku DS7Z8K556G had 5 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,034 - streamlit_logger_20250528_161549 - DEBUG - sku DS7Z8K556G successfully picked and has units remaining in prio bin
+2025-05-28 16:15:50,035 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,035 - streamlit_logger_20250528_161549 - DEBUG - Processing order 60/154288: SKU=M1PZ17603C, Qty=1
+2025-05-28 16:15:50,039 - streamlit_logger_20250528_161549 - INFO - sku M1PZ17603C in bin 5530 qty in bin 1.0
+2025-05-28 16:15:50,039 - streamlit_logger_20250528_161549 - INFO - 1 units of sku M1PZ17603C can be picked entirely from bin 5530 with pre-pick qty of 1.0
+2025-05-28 16:15:50,040 - streamlit_logger_20250528_161549 - INFO - sku M1PZ17603C had 15 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,040 - streamlit_logger_20250528_161549 - INFO -  sku M1PZ17603C picked all items in compartment 7 of bin 5530. Now it will be marked empty.
+2025-05-28 16:15:50,041 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,041 - streamlit_logger_20250528_161549 - INFO - success marking bin 5530 compartment 7 as empty
+2025-05-28 16:15:50,044 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku M1PZ17603C
+2025-05-28 16:15:50,045 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,046 - streamlit_logger_20250528_161549 - DEBUG - Processing order 61/154288: SKU=KA1Z16B990A, Qty=1
+2025-05-28 16:15:50,047 - streamlit_logger_20250528_161549 - INFO - SKU KA1Z16B990A was not in given sku data
+2025-05-28 16:15:50,047 - streamlit_logger_20250528_161549 - DEBUG - Processing order 62/154288: SKU=CP9Z6268A, Qty=1
+2025-05-28 16:15:50,047 - streamlit_logger_20250528_161549 - INFO - SKU CP9Z6268A was not in given sku data
+2025-05-28 16:15:50,047 - streamlit_logger_20250528_161549 - DEBUG - Processing order 63/154288: SKU=AE8Z17B749A, Qty=1
+2025-05-28 16:15:50,048 - streamlit_logger_20250528_161549 - INFO - SKU AE8Z17B749A was not in given sku data
+2025-05-28 16:15:50,048 - streamlit_logger_20250528_161549 - DEBUG - Processing order 64/154288: SKU=9L1Z3F818A, Qty=1
+2025-05-28 16:15:50,052 - streamlit_logger_20250528_161549 - INFO - sku 9L1Z3F818A in bin 4998 qty in bin 1.0
+2025-05-28 16:15:50,052 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 9L1Z3F818A can be picked entirely from bin 4998 with pre-pick qty of 1.0
+2025-05-28 16:15:50,054 - streamlit_logger_20250528_161549 - INFO - sku 9L1Z3F818A had 4 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,054 - streamlit_logger_20250528_161549 - INFO -  sku 9L1Z3F818A picked all items in compartment 4 of bin 4998. Now it will be marked empty.
+2025-05-28 16:15:50,055 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,056 - streamlit_logger_20250528_161549 - INFO - success marking bin 4998 compartment 4 as empty
+2025-05-28 16:15:50,059 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 9L1Z3F818A
+2025-05-28 16:15:50,061 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,061 - streamlit_logger_20250528_161549 - DEBUG - Processing order 65/154288: SKU=DR3Z8C391B, Qty=1
+2025-05-28 16:15:50,065 - streamlit_logger_20250528_161549 - INFO - sku DR3Z8C391B in bin 5191 qty in bin 1.0
+2025-05-28 16:15:50,065 - streamlit_logger_20250528_161549 - INFO - 1 units of sku DR3Z8C391B can be picked entirely from bin 5191 with pre-pick qty of 1.0
+2025-05-28 16:15:50,066 - streamlit_logger_20250528_161549 - INFO - sku DR3Z8C391B had 5 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,066 - streamlit_logger_20250528_161549 - INFO -  sku DR3Z8C391B picked all items in compartment 4 of bin 5191. Now it will be marked empty.
+2025-05-28 16:15:50,068 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,068 - streamlit_logger_20250528_161549 - INFO - success marking bin 5191 compartment 4 as empty
+2025-05-28 16:15:50,071 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku DR3Z8C391B
+2025-05-28 16:15:50,072 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,073 - streamlit_logger_20250528_161549 - DEBUG - Processing order 66/154288: SKU=9L3Z99404A42A, Qty=1
+2025-05-28 16:15:50,076 - streamlit_logger_20250528_161549 - INFO - sku 9L3Z99404A42A in bin 5004 qty in bin 1.0
+2025-05-28 16:15:50,076 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 9L3Z99404A42A can be picked entirely from bin 5004 with pre-pick qty of 1.0
+2025-05-28 16:15:50,078 - streamlit_logger_20250528_161549 - INFO - sku 9L3Z99404A42A had 15 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,078 - streamlit_logger_20250528_161549 - INFO -  sku 9L3Z99404A42A picked all items in compartment 6 of bin 5004. Now it will be marked empty.
+2025-05-28 16:15:50,079 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,080 - streamlit_logger_20250528_161549 - INFO - success marking bin 5004 compartment 6 as empty
+2025-05-28 16:15:50,083 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 9L3Z99404A42A
+2025-05-28 16:15:50,084 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,085 - streamlit_logger_20250528_161549 - DEBUG - Processing order 67/154288: SKU=JL1Z7860044AK, Qty=1
+2025-05-28 16:15:50,086 - streamlit_logger_20250528_161549 - INFO - SKU JL1Z7860044AK was not in given sku data
+2025-05-28 16:15:50,086 - streamlit_logger_20250528_161549 - DEBUG - Processing order 68/154288: SKU=AL3Z15442A, Qty=1
+2025-05-28 16:15:50,089 - streamlit_logger_20250528_161549 - INFO - sku AL3Z15442A in bin 4307 qty in bin 1.0
+2025-05-28 16:15:50,089 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AL3Z15442A can be picked entirely from bin 4307 with pre-pick qty of 1.0
+2025-05-28 16:15:50,092 - streamlit_logger_20250528_161549 - INFO - sku AL3Z15442A had 1 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,092 - streamlit_logger_20250528_161549 - INFO -  sku AL3Z15442A picked all items in compartment 4 of bin 4307. Now it will be marked empty.
+2025-05-28 16:15:50,095 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,097 - streamlit_logger_20250528_161549 - INFO - success marking bin 4307 compartment 4 as empty
+2025-05-28 16:15:50,103 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku AL3Z15442A
+2025-05-28 16:15:50,107 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,108 - streamlit_logger_20250528_161549 - DEBUG - Processing order 69/154288: SKU=H6BZ5822800A, Qty=1
+2025-05-28 16:15:50,114 - streamlit_logger_20250528_161549 - INFO - sku H6BZ5822800A in bin 2835 qty in bin 1.0
+2025-05-28 16:15:50,114 - streamlit_logger_20250528_161549 - INFO - 1 units of sku H6BZ5822800A can be picked entirely from bin 2835 with pre-pick qty of 1.0
+2025-05-28 16:15:50,116 - streamlit_logger_20250528_161549 - INFO - sku H6BZ5822800A had 13 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,116 - streamlit_logger_20250528_161549 - INFO -  sku H6BZ5822800A picked all items in compartment 1 of bin 2835. Now it will be marked empty.
+2025-05-28 16:15:50,118 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,118 - streamlit_logger_20250528_161549 - INFO - success marking bin 2835 compartment 1 as empty
+2025-05-28 16:15:50,122 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku H6BZ5822800A
+2025-05-28 16:15:50,124 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,124 - streamlit_logger_20250528_161549 - DEBUG - Processing order 70/154288: SKU=BK2Z14A099H, Qty=1
+2025-05-28 16:15:50,129 - streamlit_logger_20250528_161549 - INFO - sku BK2Z14A099H in bin 5080 qty in bin 1.0
+2025-05-28 16:15:50,129 - streamlit_logger_20250528_161549 - INFO - 1 units of sku BK2Z14A099H can be picked entirely from bin 5080 with pre-pick qty of 1.0
+2025-05-28 16:15:50,131 - streamlit_logger_20250528_161549 - INFO - sku BK2Z14A099H had 16 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,132 - streamlit_logger_20250528_161549 - INFO -  sku BK2Z14A099H picked all items in compartment 7 of bin 5080. Now it will be marked empty.
+2025-05-28 16:15:50,134 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,134 - streamlit_logger_20250528_161549 - INFO - success marking bin 5080 compartment 7 as empty
+2025-05-28 16:15:50,137 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku BK2Z14A099H
+2025-05-28 16:15:50,139 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,140 - streamlit_logger_20250528_161549 - DEBUG - Processing order 71/154288: SKU=HC3Z15702A, Qty=1
+2025-05-28 16:15:50,140 - streamlit_logger_20250528_161549 - INFO - SKU HC3Z15702A was not in given sku data
+2025-05-28 16:15:50,141 - streamlit_logger_20250528_161549 - DEBUG - Processing order 72/154288: SKU=BC3Z14B321M, Qty=1
+2025-05-28 16:15:50,141 - streamlit_logger_20250528_161549 - INFO - SKU BC3Z14B321M was not in given sku data
+2025-05-28 16:15:50,141 - streamlit_logger_20250528_161549 - DEBUG - Processing order 73/154288: SKU=DG9Z6A051A, Qty=1
+2025-05-28 16:15:50,142 - streamlit_logger_20250528_161549 - INFO - SKU DG9Z6A051A was not in given sku data
+2025-05-28 16:15:50,142 - streamlit_logger_20250528_161549 - DEBUG - Processing order 74/154288: SKU=JX7Z14F680D, Qty=1
+2025-05-28 16:15:50,144 - streamlit_logger_20250528_161549 - INFO - SKU JX7Z14F680D was in given data, but does not fit in the AS
+2025-05-28 16:15:50,144 - streamlit_logger_20250528_161549 - DEBUG - Processing order 75/154288: SKU=JL1Z5493A, Qty=1
+2025-05-28 16:15:50,147 - streamlit_logger_20250528_161549 - INFO - sku JL1Z5493A in bin 4451 qty in bin 1.0
+2025-05-28 16:15:50,147 - streamlit_logger_20250528_161549 - INFO - 1 units of sku JL1Z5493A can be picked entirely from bin 4451 with pre-pick qty of 1.0
+2025-05-28 16:15:50,149 - streamlit_logger_20250528_161549 - INFO - sku JL1Z5493A had 16 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,149 - streamlit_logger_20250528_161549 - INFO -  sku JL1Z5493A picked all items in compartment 2 of bin 4451. Now it will be marked empty.
+2025-05-28 16:15:50,150 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,151 - streamlit_logger_20250528_161549 - INFO - success marking bin 4451 compartment 2 as empty
+2025-05-28 16:15:50,155 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku JL1Z5493A
+2025-05-28 16:15:50,157 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,158 - streamlit_logger_20250528_161549 - DEBUG - Processing order 76/154288: SKU=BM5Z16055A, Qty=1
+2025-05-28 16:15:50,159 - streamlit_logger_20250528_161549 - INFO - SKU BM5Z16055A was not in given sku data
+2025-05-28 16:15:50,159 - streamlit_logger_20250528_161549 - DEBUG - Processing order 77/154288: SKU=DT1Z8310C, Qty=1
+2025-05-28 16:15:50,165 - streamlit_logger_20250528_161549 - INFO - sku DT1Z8310C in bin 2637 qty in bin 1.0
+2025-05-28 16:15:50,165 - streamlit_logger_20250528_161549 - INFO - 1 units of sku DT1Z8310C can be picked entirely from bin 2637 with pre-pick qty of 1.0
+2025-05-28 16:15:50,167 - streamlit_logger_20250528_161549 - INFO - sku DT1Z8310C had 4 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,167 - streamlit_logger_20250528_161549 - INFO -  sku DT1Z8310C picked all items in compartment 2 of bin 2637. Now it will be marked empty.
+2025-05-28 16:15:50,169 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,169 - streamlit_logger_20250528_161549 - INFO - success marking bin 2637 compartment 2 as empty
+2025-05-28 16:15:50,173 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku DT1Z8310C
+2025-05-28 16:15:50,174 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,175 - streamlit_logger_20250528_161549 - DEBUG - Processing order 78/154288: SKU=7C3Z3691C, Qty=1
+2025-05-28 16:15:50,175 - streamlit_logger_20250528_161549 - INFO - SKU 7C3Z3691C was not in given sku data
+2025-05-28 16:15:50,176 - streamlit_logger_20250528_161549 - DEBUG - Processing order 79/154288: SKU=BC3Z7G383K, Qty=1
+2025-05-28 16:15:50,176 - streamlit_logger_20250528_161549 - INFO - SKU BC3Z7G383K was not in given sku data
+2025-05-28 16:15:50,176 - streamlit_logger_20250528_161549 - DEBUG - Processing order 80/154288: SKU=ML3Z19A487AA, Qty=1
+2025-05-28 16:15:50,177 - streamlit_logger_20250528_161549 - INFO - SKU ML3Z19A487AA was not in given sku data
+2025-05-28 16:15:50,177 - streamlit_logger_20250528_161549 - DEBUG - Processing order 81/154288: SKU=EB3Z2C150C, Qty=1
+2025-05-28 16:15:50,180 - streamlit_logger_20250528_161549 - INFO - sku EB3Z2C150C in bin 5226 qty in bin 1.0
+2025-05-28 16:15:50,180 - streamlit_logger_20250528_161549 - INFO - 1 units of sku EB3Z2C150C can be picked entirely from bin 5226 with pre-pick qty of 1.0
+2025-05-28 16:15:50,182 - streamlit_logger_20250528_161549 - INFO - sku EB3Z2C150C had 5 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,182 - streamlit_logger_20250528_161549 - INFO -  sku EB3Z2C150C picked all items in compartment 6 of bin 5226. Now it will be marked empty.
+2025-05-28 16:15:50,183 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,184 - streamlit_logger_20250528_161549 - INFO - success marking bin 5226 compartment 6 as empty
+2025-05-28 16:15:50,187 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku EB3Z2C150C
+2025-05-28 16:15:50,189 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,190 - streamlit_logger_20250528_161549 - DEBUG - Processing order 82/154288: SKU=F2GZ9J280B, Qty=1
+2025-05-28 16:15:50,195 - streamlit_logger_20250528_161549 - INFO - sku F2GZ9J280B in bin 2679 qty in bin 1.0
+2025-05-28 16:15:50,195 - streamlit_logger_20250528_161549 - INFO - 1 units of sku F2GZ9J280B can be picked entirely from bin 2679 with pre-pick qty of 1.0
+2025-05-28 16:15:50,198 - streamlit_logger_20250528_161549 - INFO - sku F2GZ9J280B had 8 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,199 - streamlit_logger_20250528_161549 - INFO -  sku F2GZ9J280B picked all items in compartment 2 of bin 2679. Now it will be marked empty.
+2025-05-28 16:15:50,201 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,202 - streamlit_logger_20250528_161549 - INFO - success marking bin 2679 compartment 2 as empty
+2025-05-28 16:15:50,206 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku F2GZ9J280B
+2025-05-28 16:15:50,208 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,209 - streamlit_logger_20250528_161549 - DEBUG - Processing order 83/154288: SKU=LC5Z8C324A, Qty=1
+2025-05-28 16:15:50,212 - streamlit_logger_20250528_161549 - INFO - sku LC5Z8C324A in bin 5504 qty in bin 1.0
+2025-05-28 16:15:50,212 - streamlit_logger_20250528_161549 - INFO - 1 units of sku LC5Z8C324A can be picked entirely from bin 5504 with pre-pick qty of 1.0
+2025-05-28 16:15:50,214 - streamlit_logger_20250528_161549 - INFO - sku LC5Z8C324A had 8 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,215 - streamlit_logger_20250528_161549 - INFO -  sku LC5Z8C324A picked all items in compartment 8 of bin 5504. Now it will be marked empty.
+2025-05-28 16:15:50,216 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,217 - streamlit_logger_20250528_161549 - INFO - success marking bin 5504 compartment 8 as empty
+2025-05-28 16:15:50,219 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku LC5Z8C324A
+2025-05-28 16:15:50,220 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,221 - streamlit_logger_20250528_161549 - DEBUG - Processing order 84/154288: SKU=4L8Z6750AA, Qty=1
+2025-05-28 16:15:50,222 - streamlit_logger_20250528_161549 - INFO - SKU 4L8Z6750AA was in given data, but does not fit in the AS
+2025-05-28 16:15:50,223 - streamlit_logger_20250528_161549 - DEBUG - Processing order 85/154288: SKU=5W7Z16700A, Qty=1
+2025-05-28 16:15:50,223 - streamlit_logger_20250528_161549 - INFO - SKU 5W7Z16700A was not in given sku data
+2025-05-28 16:15:50,223 - streamlit_logger_20250528_161549 - DEBUG - Processing order 86/154288: SKU=LK4Z18495D, Qty=1
+2025-05-28 16:15:50,224 - streamlit_logger_20250528_161549 - INFO - SKU LK4Z18495D was not in given sku data
+2025-05-28 16:15:50,224 - streamlit_logger_20250528_161549 - DEBUG - Processing order 87/154288: SKU=M1PZ78018A17A, Qty=1
+2025-05-28 16:15:50,224 - streamlit_logger_20250528_161549 - INFO - SKU M1PZ78018A17A was not in given sku data
+2025-05-28 16:15:50,224 - streamlit_logger_20250528_161549 - DEBUG - Processing order 88/154288: SKU=ML3Z1625861C, Qty=1
+2025-05-28 16:15:50,225 - streamlit_logger_20250528_161549 - INFO - SKU ML3Z1625861C was not in given sku data
+2025-05-28 16:15:50,225 - streamlit_logger_20250528_161549 - DEBUG - Processing order 89/154288: SKU=KT4Z16C826A, Qty=1
+2025-05-28 16:15:50,226 - streamlit_logger_20250528_161549 - INFO - SKU KT4Z16C826A was in given data, but does not fit in the AS
+2025-05-28 16:15:50,226 - streamlit_logger_20250528_161549 - DEBUG - Processing order 90/154288: SKU=LK4Z16A238A, Qty=1
+2025-05-28 16:15:50,226 - streamlit_logger_20250528_161549 - INFO - SKU LK4Z16A238A was not in given sku data
+2025-05-28 16:15:50,227 - streamlit_logger_20250528_161549 - DEBUG - Processing order 91/154288: SKU=LC3Z1660044AB, Qty=1
+2025-05-28 16:15:50,227 - streamlit_logger_20250528_161549 - INFO - SKU LC3Z1660044AB was not in given sku data
+2025-05-28 16:15:50,227 - streamlit_logger_20250528_161549 - DEBUG - Processing order 92/154288: SKU=HC3Z8075E, Qty=1
+2025-05-28 16:15:50,231 - streamlit_logger_20250528_161549 - INFO - sku HC3Z8075E in bin 5393 qty in bin 1.0
+2025-05-28 16:15:50,231 - streamlit_logger_20250528_161549 - INFO - 1 units of sku HC3Z8075E can be picked entirely from bin 5393 with pre-pick qty of 1.0
+2025-05-28 16:15:50,233 - streamlit_logger_20250528_161549 - INFO - sku HC3Z8075E had 11 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,233 - streamlit_logger_20250528_161549 - INFO -  sku HC3Z8075E picked all items in compartment 6 of bin 5393. Now it will be marked empty.
+2025-05-28 16:15:50,234 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,235 - streamlit_logger_20250528_161549 - INFO - success marking bin 5393 compartment 6 as empty
+2025-05-28 16:15:50,238 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku HC3Z8075E
+2025-05-28 16:15:50,239 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,240 - streamlit_logger_20250528_161549 - DEBUG - Processing order 93/154288: SKU=LJ6Z16E132A, Qty=1
+2025-05-28 16:15:50,240 - streamlit_logger_20250528_161549 - INFO - SKU LJ6Z16E132A was not in given sku data
+2025-05-28 16:15:50,240 - streamlit_logger_20250528_161549 - DEBUG - Processing order 94/154288: SKU=KL3Z17D550CB, Qty=1
+2025-05-28 16:15:50,244 - streamlit_logger_20250528_161549 - INFO - sku KL3Z17D550CB in bin 4472 qty in bin 1.0
+2025-05-28 16:15:50,244 - streamlit_logger_20250528_161549 - INFO - 1 units of sku KL3Z17D550CB can be picked entirely from bin 4472 with pre-pick qty of 1.0
+2025-05-28 16:15:50,245 - streamlit_logger_20250528_161549 - INFO - sku KL3Z17D550CB had 12 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,245 - streamlit_logger_20250528_161549 - INFO -  sku KL3Z17D550CB picked all items in compartment 1 of bin 4472. Now it will be marked empty.
+2025-05-28 16:15:50,247 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,247 - streamlit_logger_20250528_161549 - INFO - success marking bin 4472 compartment 1 as empty
+2025-05-28 16:15:50,250 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku KL3Z17D550CB
+2025-05-28 16:15:50,251 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,252 - streamlit_logger_20250528_161549 - DEBUG - Processing order 95/154288: SKU=F7UZ4067AA, Qty=1
+2025-05-28 16:15:50,252 - streamlit_logger_20250528_161549 - INFO - SKU F7UZ4067AA was not in given sku data
+2025-05-28 16:15:50,252 - streamlit_logger_20250528_161549 - DEBUG - Processing order 96/154288: SKU=FD8Z7G383C, Qty=1
+2025-05-28 16:15:50,256 - streamlit_logger_20250528_161549 - INFO - sku FD8Z7G383C in bin 5319 qty in bin 1.0
+2025-05-28 16:15:50,256 - streamlit_logger_20250528_161549 - INFO - 1 units of sku FD8Z7G383C can be picked entirely from bin 5319 with pre-pick qty of 1.0
+2025-05-28 16:15:50,259 - streamlit_logger_20250528_161549 - INFO - sku FD8Z7G383C had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,259 - streamlit_logger_20250528_161549 - INFO -  sku FD8Z7G383C picked all items in compartment 3 of bin 5319. Now it will be marked empty.
+2025-05-28 16:15:50,260 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,261 - streamlit_logger_20250528_161549 - INFO - success marking bin 5319 compartment 3 as empty
+2025-05-28 16:15:50,263 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku FD8Z7G383C
+2025-05-28 16:15:50,265 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,266 - streamlit_logger_20250528_161549 - DEBUG - Processing order 97/154288: SKU=HC3Z6140A, Qty=1
+2025-05-28 16:15:50,270 - streamlit_logger_20250528_161549 - INFO - sku HC3Z6140A in bin 5391 qty in bin 1.0
+2025-05-28 16:15:50,270 - streamlit_logger_20250528_161549 - INFO - 1 units of sku HC3Z6140A can be picked entirely from bin 5391 with pre-pick qty of 1.0
+2025-05-28 16:15:50,272 - streamlit_logger_20250528_161549 - INFO - sku HC3Z6140A had 15 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,272 - streamlit_logger_20250528_161549 - INFO -  sku HC3Z6140A picked all items in compartment 6 of bin 5391. Now it will be marked empty.
+2025-05-28 16:15:50,274 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,274 - streamlit_logger_20250528_161549 - INFO - success marking bin 5391 compartment 6 as empty
+2025-05-28 16:15:50,277 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku HC3Z6140A
+2025-05-28 16:15:50,279 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,279 - streamlit_logger_20250528_161549 - DEBUG - Processing order 98/154288: SKU=3U2Z14S411PRC, Qty=1
+2025-05-28 16:15:50,280 - streamlit_logger_20250528_161549 - INFO - SKU 3U2Z14S411PRC was not in given sku data
+2025-05-28 16:15:50,280 - streamlit_logger_20250528_161549 - DEBUG - Processing order 99/154288: SKU=LP5Z7B442B, Qty=1
+2025-05-28 16:15:50,284 - streamlit_logger_20250528_161549 - INFO - sku LP5Z7B442B in bin 5520 qty in bin 1.0
+2025-05-28 16:15:50,284 - streamlit_logger_20250528_161549 - INFO - 1 units of sku LP5Z7B442B can be picked entirely from bin 5520 with pre-pick qty of 1.0
+2025-05-28 16:15:50,286 - streamlit_logger_20250528_161549 - INFO - sku LP5Z7B442B had 1 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,286 - streamlit_logger_20250528_161549 - INFO -  sku LP5Z7B442B picked all items in compartment 3 of bin 5520. Now it will be marked empty.
+2025-05-28 16:15:50,287 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,288 - streamlit_logger_20250528_161549 - INFO - success marking bin 5520 compartment 3 as empty
+2025-05-28 16:15:50,290 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku LP5Z7B442B
+2025-05-28 16:15:50,292 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,292 - streamlit_logger_20250528_161549 - DEBUG - Processing order 100/154288: SKU=AL8Z78218B08AA, Qty=1
+2025-05-28 16:15:50,295 - streamlit_logger_20250528_161549 - INFO - sku AL8Z78218B08AA in bin 5037 qty in bin 1.0
+2025-05-28 16:15:50,295 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AL8Z78218B08AA can be picked entirely from bin 5037 with pre-pick qty of 1.0
+2025-05-28 16:15:50,297 - streamlit_logger_20250528_161549 - INFO - sku AL8Z78218B08AA had 16 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,297 - streamlit_logger_20250528_161549 - INFO -  sku AL8Z78218B08AA picked all items in compartment 8 of bin 5037. Now it will be marked empty.
+2025-05-28 16:15:50,299 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,300 - streamlit_logger_20250528_161549 - INFO - success marking bin 5037 compartment 8 as empty
+2025-05-28 16:15:50,304 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku AL8Z78218B08AA
+2025-05-28 16:15:50,305 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,306 - streamlit_logger_20250528_161549 - DEBUG - Processing order 101/154288: SKU=F1FZ19G481J, Qty=1
+2025-05-28 16:15:50,310 - streamlit_logger_20250528_161549 - INFO - sku F1FZ19G481J in bin 5241 qty in bin 1.0
+2025-05-28 16:15:50,310 - streamlit_logger_20250528_161549 - INFO - 1 units of sku F1FZ19G481J can be picked entirely from bin 5241 with pre-pick qty of 1.0
+2025-05-28 16:15:50,312 - streamlit_logger_20250528_161549 - INFO - sku F1FZ19G481J had 15 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,312 - streamlit_logger_20250528_161549 - INFO -  sku F1FZ19G481J picked all items in compartment 4 of bin 5241. Now it will be marked empty.
+2025-05-28 16:15:50,314 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,315 - streamlit_logger_20250528_161549 - INFO - success marking bin 5241 compartment 4 as empty
+2025-05-28 16:15:50,318 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku F1FZ19G481J
+2025-05-28 16:15:50,319 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,320 - streamlit_logger_20250528_161549 - DEBUG - Processing order 102/154288: SKU=7T4Z7826811A, Qty=1
+2025-05-28 16:15:50,320 - streamlit_logger_20250528_161549 - INFO - SKU 7T4Z7826811A was not in given sku data
+2025-05-28 16:15:50,320 - streamlit_logger_20250528_161549 - DEBUG - Processing order 103/154288: SKU=ML3Z6775M, Qty=1
+2025-05-28 16:15:50,322 - streamlit_logger_20250528_161549 - INFO - SKU ML3Z6775M was not in given sku data
+2025-05-28 16:15:50,322 - streamlit_logger_20250528_161549 - DEBUG - Processing order 104/154288: SKU=AU2Z14S411BCA, Qty=1
+2025-05-28 16:15:50,323 - streamlit_logger_20250528_161549 - INFO - SKU AU2Z14S411BCA was not in given sku data
+2025-05-28 16:15:50,323 - streamlit_logger_20250528_161549 - DEBUG - Processing order 105/154288: SKU=BK3Z61253A11C, Qty=1
+2025-05-28 16:15:50,324 - streamlit_logger_20250528_161549 - INFO - SKU BK3Z61253A11C was not in given sku data
+2025-05-28 16:15:50,324 - streamlit_logger_20250528_161549 - DEBUG - Processing order 106/154288: SKU=LP5Z7B164B, Qty=1
+2025-05-28 16:15:50,327 - streamlit_logger_20250528_161549 - INFO - sku LP5Z7B164B in bin 5519 qty in bin 1.0
+2025-05-28 16:15:50,327 - streamlit_logger_20250528_161549 - INFO - 1 units of sku LP5Z7B164B can be picked entirely from bin 5519 with pre-pick qty of 1.0
+2025-05-28 16:15:50,329 - streamlit_logger_20250528_161549 - INFO - sku LP5Z7B164B had 10 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,330 - streamlit_logger_20250528_161549 - INFO -  sku LP5Z7B164B picked all items in compartment 5 of bin 5519. Now it will be marked empty.
+2025-05-28 16:15:50,332 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,333 - streamlit_logger_20250528_161549 - INFO - success marking bin 5519 compartment 5 as empty
+2025-05-28 16:15:50,337 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku LP5Z7B164B
+2025-05-28 16:15:50,339 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,340 - streamlit_logger_20250528_161549 - DEBUG - Processing order 107/154288: SKU=ML3Z2K004D, Qty=1
+2025-05-28 16:15:50,344 - streamlit_logger_20250528_161549 - INFO - sku ML3Z2K004D in bin 3172 qty in bin 1.0
+2025-05-28 16:15:50,344 - streamlit_logger_20250528_161549 - INFO - 1 units of sku ML3Z2K004D can be picked entirely from bin 3172 with pre-pick qty of 1.0
+2025-05-28 16:15:50,346 - streamlit_logger_20250528_161549 - INFO - sku ML3Z2K004D had 9 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,346 - streamlit_logger_20250528_161549 - INFO -  sku ML3Z2K004D picked all items in compartment 1 of bin 3172. Now it will be marked empty.
+2025-05-28 16:15:50,348 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,349 - streamlit_logger_20250528_161549 - INFO - success marking bin 3172 compartment 1 as empty
+2025-05-28 16:15:50,352 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku ML3Z2K004D
+2025-05-28 16:15:50,354 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,354 - streamlit_logger_20250528_161549 - DEBUG - Processing order 108/154288: SKU=6C3Z6K786A, Qty=1
+2025-05-28 16:15:50,359 - streamlit_logger_20250528_161549 - INFO - sku 6C3Z6K786A in bin 4912 qty in bin 1.0
+2025-05-28 16:15:50,359 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 6C3Z6K786A can be picked entirely from bin 4912 with pre-pick qty of 1.0
+2025-05-28 16:15:50,361 - streamlit_logger_20250528_161549 - INFO - sku 6C3Z6K786A had 3 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,361 - streamlit_logger_20250528_161549 - INFO -  sku 6C3Z6K786A picked all items in compartment 5 of bin 4912. Now it will be marked empty.
+2025-05-28 16:15:50,363 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,363 - streamlit_logger_20250528_161549 - INFO - success marking bin 4912 compartment 5 as empty
+2025-05-28 16:15:50,368 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 6C3Z6K786A
+2025-05-28 16:15:50,370 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,371 - streamlit_logger_20250528_161549 - DEBUG - Processing order 109/154288: SKU=AL3Z7A548G, Qty=1
+2025-05-28 16:15:50,375 - streamlit_logger_20250528_161549 - INFO - sku AL3Z7A548G in bin 5035 qty in bin 1.0
+2025-05-28 16:15:50,375 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AL3Z7A548G can be picked entirely from bin 5035 with pre-pick qty of 1.0
+2025-05-28 16:15:50,377 - streamlit_logger_20250528_161549 - INFO - sku AL3Z7A548G had 11 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,377 - streamlit_logger_20250528_161549 - INFO -  sku AL3Z7A548G picked all items in compartment 1 of bin 5035. Now it will be marked empty.
+2025-05-28 16:15:50,379 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,379 - streamlit_logger_20250528_161549 - INFO - success marking bin 5035 compartment 1 as empty
+2025-05-28 16:15:50,383 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku AL3Z7A548G
+2025-05-28 16:15:50,385 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,386 - streamlit_logger_20250528_161549 - DEBUG - Processing order 110/154288: SKU=NL7Z17E811AA, Qty=1
+2025-05-28 16:15:50,386 - streamlit_logger_20250528_161549 - INFO - SKU NL7Z17E811AA was not in given sku data
+2025-05-28 16:15:50,387 - streamlit_logger_20250528_161549 - DEBUG - Processing order 111/154288: SKU=CV6Z7G136B, Qty=1
+2025-05-28 16:15:50,391 - streamlit_logger_20250528_161549 - INFO - sku CV6Z7G136B in bin 5158 qty in bin 1.0
+2025-05-28 16:15:50,391 - streamlit_logger_20250528_161549 - INFO - 1 units of sku CV6Z7G136B can be picked entirely from bin 5158 with pre-pick qty of 1.0
+2025-05-28 16:15:50,393 - streamlit_logger_20250528_161549 - INFO - sku CV6Z7G136B had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,393 - streamlit_logger_20250528_161549 - INFO -  sku CV6Z7G136B picked all items in compartment 5 of bin 5158. Now it will be marked empty.
+2025-05-28 16:15:50,394 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,395 - streamlit_logger_20250528_161549 - INFO - success marking bin 5158 compartment 5 as empty
+2025-05-28 16:15:50,399 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku CV6Z7G136B
+2025-05-28 16:15:50,400 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,401 - streamlit_logger_20250528_161549 - DEBUG - Processing order 112/154288: SKU=6E5Z5402228AA, Qty=1
+2025-05-28 16:15:50,402 - streamlit_logger_20250528_161549 - INFO - SKU 6E5Z5402228AA was not in given sku data
+2025-05-28 16:15:50,402 - streamlit_logger_20250528_161549 - DEBUG - Processing order 113/154288: SKU=FR3Z5K570A, Qty=1
+2025-05-28 16:15:50,406 - streamlit_logger_20250528_161549 - INFO - sku FR3Z5K570A in bin 5351 qty in bin 1.0
+2025-05-28 16:15:50,406 - streamlit_logger_20250528_161549 - INFO - 1 units of sku FR3Z5K570A can be picked entirely from bin 5351 with pre-pick qty of 1.0
+2025-05-28 16:15:50,409 - streamlit_logger_20250528_161549 - INFO - sku FR3Z5K570A had 5 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,409 - streamlit_logger_20250528_161549 - INFO -  sku FR3Z5K570A picked all items in compartment 5 of bin 5351. Now it will be marked empty.
+2025-05-28 16:15:50,410 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,411 - streamlit_logger_20250528_161549 - INFO - success marking bin 5351 compartment 5 as empty
+2025-05-28 16:15:50,415 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku FR3Z5K570A
+2025-05-28 16:15:50,416 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,417 - streamlit_logger_20250528_161549 - DEBUG - Processing order 114/154288: SKU=F81Z4819AA, Qty=1
+2025-05-28 16:15:50,418 - streamlit_logger_20250528_161549 - INFO - SKU F81Z4819AA was not in given sku data
+2025-05-28 16:15:50,418 - streamlit_logger_20250528_161549 - DEBUG - Processing order 115/154288: SKU=CK4Z4273AC, Qty=1
+2025-05-28 16:15:50,418 - streamlit_logger_20250528_161549 - INFO - SKU CK4Z4273AC was not in given sku data
+2025-05-28 16:15:50,419 - streamlit_logger_20250528_161549 - DEBUG - Processing order 116/154288: SKU=JL3Z10E893AB, Qty=1
+2025-05-28 16:15:50,422 - streamlit_logger_20250528_161549 - INFO - sku JL3Z10E893AB in bin 5428 qty in bin 1.0
+2025-05-28 16:15:50,422 - streamlit_logger_20250528_161549 - INFO - 1 units of sku JL3Z10E893AB can be picked entirely from bin 5428 with pre-pick qty of 1.0
+2025-05-28 16:15:50,424 - streamlit_logger_20250528_161549 - INFO - sku JL3Z10E893AB had 11 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,424 - streamlit_logger_20250528_161549 - INFO -  sku JL3Z10E893AB picked all items in compartment 8 of bin 5428. Now it will be marked empty.
+2025-05-28 16:15:50,426 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,427 - streamlit_logger_20250528_161549 - INFO - success marking bin 5428 compartment 8 as empty
+2025-05-28 16:15:50,429 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku JL3Z10E893AB
+2025-05-28 16:15:50,431 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,432 - streamlit_logger_20250528_161549 - DEBUG - Processing order 117/154288: SKU=AL3Z7A548F, Qty=1
+2025-05-28 16:15:50,435 - streamlit_logger_20250528_161549 - INFO - sku AL3Z7A548F in bin 5034 qty in bin 1.0
+2025-05-28 16:15:50,435 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AL3Z7A548F can be picked entirely from bin 5034 with pre-pick qty of 1.0
+2025-05-28 16:15:50,437 - streamlit_logger_20250528_161549 - INFO - sku AL3Z7A548F had 8 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,438 - streamlit_logger_20250528_161549 - INFO -  sku AL3Z7A548F picked all items in compartment 8 of bin 5034. Now it will be marked empty.
+2025-05-28 16:15:50,439 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,440 - streamlit_logger_20250528_161549 - INFO - success marking bin 5034 compartment 8 as empty
+2025-05-28 16:15:50,444 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku AL3Z7A548F
+2025-05-28 16:15:50,446 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,447 - streamlit_logger_20250528_161549 - DEBUG - Processing order 118/154288: SKU=LU2Z14S411ACA, Qty=1
+2025-05-28 16:15:50,447 - streamlit_logger_20250528_161549 - INFO - SKU LU2Z14S411ACA was not in given sku data
+2025-05-28 16:15:50,448 - streamlit_logger_20250528_161549 - DEBUG - Processing order 119/154288: SKU=JL3Z1560262AC, Qty=1
+2025-05-28 16:15:50,448 - streamlit_logger_20250528_161549 - INFO - SKU JL3Z1560262AC was not in given sku data
+2025-05-28 16:15:50,449 - streamlit_logger_20250528_161549 - DEBUG - Processing order 120/154288: SKU=9X2Z6268B, Qty=1
+2025-05-28 16:15:50,449 - streamlit_logger_20250528_161549 - INFO - SKU 9X2Z6268B was not in given sku data
+2025-05-28 16:15:50,449 - streamlit_logger_20250528_161549 - DEBUG - Processing order 121/154288: SKU=FL1Z5A967C, Qty=1
+2025-05-28 16:15:50,450 - streamlit_logger_20250528_161549 - INFO - SKU FL1Z5A967C was not in given sku data
+2025-05-28 16:15:50,450 - streamlit_logger_20250528_161549 - DEBUG - Processing order 122/154288: SKU=D8BZ14474E, Qty=1
+2025-05-28 16:15:50,451 - streamlit_logger_20250528_161549 - INFO - SKU D8BZ14474E was not in given sku data
+2025-05-28 16:15:50,451 - streamlit_logger_20250528_161549 - DEBUG - Processing order 123/154288: SKU=AH6Z5442528A, Qty=1
+2025-05-28 16:15:50,454 - streamlit_logger_20250528_161549 - INFO - sku AH6Z5442528A in bin 445 qty in bin 12.0
+2025-05-28 16:15:50,455 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AH6Z5442528A can be picked entirely from bin 445 with pre-pick qty of 12.0
+2025-05-28 16:15:50,457 - streamlit_logger_20250528_161549 - INFO - sku AH6Z5442528A had 4 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,457 - streamlit_logger_20250528_161549 - DEBUG - sku AH6Z5442528A successfully picked and has units remaining in prio bin
+2025-05-28 16:15:50,457 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,458 - streamlit_logger_20250528_161549 - DEBUG - Processing order 124/154288: SKU=DP5Z5440180A, Qty=1
+2025-05-28 16:15:50,460 - streamlit_logger_20250528_161549 - INFO - SKU DP5Z5440180A was in given data, but does not fit in the AS
+2025-05-28 16:15:50,460 - streamlit_logger_20250528_161549 - DEBUG - Processing order 125/154288: SKU=KB3Z2C205A, Qty=1
+2025-05-28 16:15:50,460 - streamlit_logger_20250528_161549 - INFO - SKU KB3Z2C205A was not in given sku data
+2025-05-28 16:15:50,460 - streamlit_logger_20250528_161549 - DEBUG - Processing order 126/154288: SKU=HL3Z6211C, Qty=1
+2025-05-28 16:15:50,464 - streamlit_logger_20250528_161549 - INFO - sku HL3Z6211C in bin 5400 qty in bin 1.0
+2025-05-28 16:15:50,464 - streamlit_logger_20250528_161549 - INFO - 1 units of sku HL3Z6211C can be picked entirely from bin 5400 with pre-pick qty of 1.0
+2025-05-28 16:15:50,467 - streamlit_logger_20250528_161549 - INFO - sku HL3Z6211C had 13 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,467 - streamlit_logger_20250528_161549 - INFO -  sku HL3Z6211C picked all items in compartment 3 of bin 5400. Now it will be marked empty.
+2025-05-28 16:15:50,468 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,469 - streamlit_logger_20250528_161549 - INFO - success marking bin 5400 compartment 3 as empty
+2025-05-28 16:15:50,472 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku HL3Z6211C
+2025-05-28 16:15:50,473 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,474 - streamlit_logger_20250528_161549 - DEBUG - Processing order 127/154288: SKU=5S4Z5442528BA, Qty=1
+2025-05-28 16:15:50,477 - streamlit_logger_20250528_161549 - INFO - sku 5S4Z5442528BA in bin 4907 qty in bin 1.0
+2025-05-28 16:15:50,477 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 5S4Z5442528BA can be picked entirely from bin 4907 with pre-pick qty of 1.0
+2025-05-28 16:15:50,479 - streamlit_logger_20250528_161549 - INFO - sku 5S4Z5442528BA had 17 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,479 - streamlit_logger_20250528_161549 - INFO -  sku 5S4Z5442528BA picked all items in compartment 2 of bin 4907. Now it will be marked empty.
+2025-05-28 16:15:50,480 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,481 - streamlit_logger_20250528_161549 - INFO - success marking bin 4907 compartment 2 as empty
+2025-05-28 16:15:50,485 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 5S4Z5442528BA
+2025-05-28 16:15:50,486 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,487 - streamlit_logger_20250528_161549 - DEBUG - Processing order 128/154288: SKU=EM2Z17A954A, Qty=1
+2025-05-28 16:15:50,491 - streamlit_logger_20250528_161549 - INFO - sku EM2Z17A954A in bin 945 qty in bin 18.0
+2025-05-28 16:15:50,491 - streamlit_logger_20250528_161549 - INFO - 1 units of sku EM2Z17A954A can be picked entirely from bin 945 with pre-pick qty of 18.0
+2025-05-28 16:15:50,493 - streamlit_logger_20250528_161549 - INFO - sku EM2Z17A954A had 2 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,493 - streamlit_logger_20250528_161549 - DEBUG - sku EM2Z17A954A successfully picked and has units remaining in prio bin
+2025-05-28 16:15:50,494 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,497 - streamlit_logger_20250528_161549 - DEBUG - Processing order 129/154288: SKU=MU2Z14S411DA, Qty=1
+2025-05-28 16:15:50,498 - streamlit_logger_20250528_161549 - INFO - SKU MU2Z14S411DA was not in given sku data
+2025-05-28 16:15:50,498 - streamlit_logger_20250528_161549 - DEBUG - Processing order 130/154288: SKU=HC3Z9P471A, Qty=1
+2025-05-28 16:15:50,499 - streamlit_logger_20250528_161549 - INFO - SKU HC3Z9P471A was not in given sku data
+2025-05-28 16:15:50,499 - streamlit_logger_20250528_161549 - DEBUG - Processing order 131/154288: SKU=EB3Z2C150A, Qty=1
+2025-05-28 16:15:50,505 - streamlit_logger_20250528_161549 - INFO - sku EB3Z2C150A in bin 5226 qty in bin 1.0
+2025-05-28 16:15:50,505 - streamlit_logger_20250528_161549 - INFO - 1 units of sku EB3Z2C150A can be picked entirely from bin 5226 with pre-pick qty of 1.0
+2025-05-28 16:15:50,508 - streamlit_logger_20250528_161549 - INFO - sku EB3Z2C150A had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,509 - streamlit_logger_20250528_161549 - INFO -  sku EB3Z2C150A picked all items in compartment 5 of bin 5226. Now it will be marked empty.
+2025-05-28 16:15:50,511 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,511 - streamlit_logger_20250528_161549 - INFO - success marking bin 5226 compartment 5 as empty
+2025-05-28 16:15:50,515 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku EB3Z2C150A
+2025-05-28 16:15:50,517 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,518 - streamlit_logger_20250528_161549 - DEBUG - Processing order 132/154288: SKU=EOTZ6A666A, Qty=1
+2025-05-28 16:15:50,524 - streamlit_logger_20250528_161549 - INFO - sku EOTZ6A666A in bin 5234 qty in bin 1.0
+2025-05-28 16:15:50,524 - streamlit_logger_20250528_161549 - INFO - 1 units of sku EOTZ6A666A can be picked entirely from bin 5234 with pre-pick qty of 1.0
+2025-05-28 16:15:50,527 - streamlit_logger_20250528_161549 - INFO - sku EOTZ6A666A had 14 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,527 - streamlit_logger_20250528_161549 - INFO -  sku EOTZ6A666A picked all items in compartment 5 of bin 5234. Now it will be marked empty.
+2025-05-28 16:15:50,528 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,529 - streamlit_logger_20250528_161549 - INFO - success marking bin 5234 compartment 5 as empty
+2025-05-28 16:15:50,532 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku EOTZ6A666A
+2025-05-28 16:15:50,534 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,535 - streamlit_logger_20250528_161549 - DEBUG - Processing order 133/154288: SKU=GT4Z5829076AA, Qty=1
+2025-05-28 16:15:50,535 - streamlit_logger_20250528_161549 - INFO - SKU GT4Z5829076AA was not in given sku data
+2025-05-28 16:15:50,535 - streamlit_logger_20250528_161549 - DEBUG - Processing order 134/154288: SKU=NZ6Z9942528E, Qty=1
+2025-05-28 16:15:50,540 - streamlit_logger_20250528_161549 - INFO - sku NZ6Z9942528E in bin 3215 qty in bin 1.0
+2025-05-28 16:15:50,540 - streamlit_logger_20250528_161549 - INFO - 1 units of sku NZ6Z9942528E can be picked entirely from bin 3215 with pre-pick qty of 1.0
+2025-05-28 16:15:50,542 - streamlit_logger_20250528_161549 - INFO - sku NZ6Z9942528E had 9 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,542 - streamlit_logger_20250528_161549 - INFO -  sku NZ6Z9942528E picked all items in compartment 2 of bin 3215. Now it will be marked empty.
+2025-05-28 16:15:50,544 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,544 - streamlit_logger_20250528_161549 - INFO - success marking bin 3215 compartment 2 as empty
+2025-05-28 16:15:50,547 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku NZ6Z9942528E
+2025-05-28 16:15:50,549 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,550 - streamlit_logger_20250528_161549 - DEBUG - Processing order 135/154288: SKU=8S4Z5484D, Qty=1
+2025-05-28 16:15:50,550 - streamlit_logger_20250528_161549 - INFO - SKU 8S4Z5484D was not in given sku data
+2025-05-28 16:15:50,551 - streamlit_logger_20250528_161549 - DEBUG - Processing order 136/154288: SKU=6L5Z16720HA, Qty=1
+2025-05-28 16:15:50,552 - streamlit_logger_20250528_161549 - INFO - SKU 6L5Z16720HA was not in given sku data
+2025-05-28 16:15:50,552 - streamlit_logger_20250528_161549 - DEBUG - Processing order 137/154288: SKU=ML3Z8507B, Qty=1
+2025-05-28 16:15:50,556 - streamlit_logger_20250528_161549 - INFO - sku ML3Z8507B in bin 5549 qty in bin 1.0
+2025-05-28 16:15:50,557 - streamlit_logger_20250528_161549 - INFO - 1 units of sku ML3Z8507B can be picked entirely from bin 5549 with pre-pick qty of 1.0
+2025-05-28 16:15:50,559 - streamlit_logger_20250528_161549 - INFO - sku ML3Z8507B had 2 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,559 - streamlit_logger_20250528_161549 - INFO -  sku ML3Z8507B picked all items in compartment 8 of bin 5549. Now it will be marked empty.
+2025-05-28 16:15:50,560 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,561 - streamlit_logger_20250528_161549 - INFO - success marking bin 5549 compartment 8 as empty
+2025-05-28 16:15:50,564 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku ML3Z8507B
+2025-05-28 16:15:50,566 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,567 - streamlit_logger_20250528_161549 - DEBUG - Processing order 138/154288: SKU=CK4Z2651932A, Qty=1
+2025-05-28 16:15:50,571 - streamlit_logger_20250528_161549 - INFO - sku CK4Z2651932A in bin 5128 qty in bin 1.0
+2025-05-28 16:15:50,572 - streamlit_logger_20250528_161549 - INFO - 1 units of sku CK4Z2651932A can be picked entirely from bin 5128 with pre-pick qty of 1.0
+2025-05-28 16:15:50,573 - streamlit_logger_20250528_161549 - INFO - sku CK4Z2651932A had 15 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,574 - streamlit_logger_20250528_161549 - INFO -  sku CK4Z2651932A picked all items in compartment 7 of bin 5128. Now it will be marked empty.
+2025-05-28 16:15:50,575 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,576 - streamlit_logger_20250528_161549 - INFO - success marking bin 5128 compartment 7 as empty
+2025-05-28 16:15:50,579 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku CK4Z2651932A
+2025-05-28 16:15:50,581 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,582 - streamlit_logger_20250528_161549 - DEBUG - Processing order 139/154288: SKU=CJ5Z9B929B, Qty=1
+2025-05-28 16:15:50,585 - streamlit_logger_20250528_161549 - INFO - sku CJ5Z9B929B in bin 5126 qty in bin 1.0
+2025-05-28 16:15:50,586 - streamlit_logger_20250528_161549 - INFO - 1 units of sku CJ5Z9B929B can be picked entirely from bin 5126 with pre-pick qty of 1.0
+2025-05-28 16:15:50,588 - streamlit_logger_20250528_161549 - INFO - sku CJ5Z9B929B had 6 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,588 - streamlit_logger_20250528_161549 - INFO -  sku CJ5Z9B929B picked all items in compartment 3 of bin 5126. Now it will be marked empty.
+2025-05-28 16:15:50,590 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,591 - streamlit_logger_20250528_161549 - INFO - success marking bin 5126 compartment 3 as empty
+2025-05-28 16:15:50,594 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku CJ5Z9B929B
+2025-05-28 16:15:50,596 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,597 - streamlit_logger_20250528_161549 - DEBUG - Processing order 140/154288: SKU=E9TZ9G458A, Qty=1
+2025-05-28 16:15:50,601 - streamlit_logger_20250528_161549 - INFO - sku E9TZ9G458A in bin 5225 qty in bin 1.0
+2025-05-28 16:15:50,601 - streamlit_logger_20250528_161549 - INFO - 1 units of sku E9TZ9G458A can be picked entirely from bin 5225 with pre-pick qty of 1.0
+2025-05-28 16:15:50,603 - streamlit_logger_20250528_161549 - INFO - sku E9TZ9G458A had 1 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,604 - streamlit_logger_20250528_161549 - INFO -  sku E9TZ9G458A picked all items in compartment 4 of bin 5225. Now it will be marked empty.
+2025-05-28 16:15:50,605 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,607 - streamlit_logger_20250528_161549 - INFO - success marking bin 5225 compartment 4 as empty
+2025-05-28 16:15:50,611 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku E9TZ9G458A
+2025-05-28 16:15:50,612 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,613 - streamlit_logger_20250528_161549 - DEBUG - Processing order 141/154288: SKU=CV6Z15A851A, Qty=1
+2025-05-28 16:15:50,613 - streamlit_logger_20250528_161549 - INFO - SKU CV6Z15A851A was not in given sku data
+2025-05-28 16:15:50,613 - streamlit_logger_20250528_161549 - DEBUG - Processing order 142/154288: SKU=CL3Z7C108A, Qty=1
+2025-05-28 16:15:50,617 - streamlit_logger_20250528_161549 - INFO - sku CL3Z7C108A in bin 703 qty in bin 7.0
+2025-05-28 16:15:50,617 - streamlit_logger_20250528_161549 - INFO - 1 units of sku CL3Z7C108A can be picked entirely from bin 703 with pre-pick qty of 7.0
+2025-05-28 16:15:50,620 - streamlit_logger_20250528_161549 - INFO - sku CL3Z7C108A had 0 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,621 - streamlit_logger_20250528_161549 - DEBUG - sku CL3Z7C108A successfully picked and has units remaining in prio bin
+2025-05-28 16:15:50,622 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,624 - streamlit_logger_20250528_161549 - DEBUG - Processing order 143/154288: SKU=8M5Z19D596A, Qty=1
+2025-05-28 16:15:50,625 - streamlit_logger_20250528_161549 - INFO - SKU 8M5Z19D596A was not in given sku data
+2025-05-28 16:15:50,626 - streamlit_logger_20250528_161549 - DEBUG - Processing order 144/154288: SKU=E9AZ4211A, Qty=1
+2025-05-28 16:15:50,627 - streamlit_logger_20250528_161549 - INFO - SKU E9AZ4211A was not in given sku data
+2025-05-28 16:15:50,627 - streamlit_logger_20250528_161549 - DEBUG - Processing order 145/154288: SKU=FL3Z16275A19BA, Qty=1
+2025-05-28 16:15:50,627 - streamlit_logger_20250528_161549 - INFO - SKU FL3Z16275A19BA was not in given sku data
+2025-05-28 16:15:50,628 - streamlit_logger_20250528_161549 - DEBUG - Processing order 146/154288: SKU=BK3Z6122008C, Qty=1
+2025-05-28 16:15:50,628 - streamlit_logger_20250528_161549 - INFO - SKU BK3Z6122008C was not in given sku data
+2025-05-28 16:15:50,629 - streamlit_logger_20250528_161549 - DEBUG - Processing order 147/154288: SKU=FL1Z78001A08B, Qty=1
+2025-05-28 16:15:50,630 - streamlit_logger_20250528_161549 - INFO - SKU FL1Z78001A08B was not in given sku data
+2025-05-28 16:15:50,630 - streamlit_logger_20250528_161549 - DEBUG - Processing order 148/154288: SKU=5F1Z13550AA, Qty=1
+2025-05-28 16:15:50,631 - streamlit_logger_20250528_161549 - INFO - SKU 5F1Z13550AA was not in given sku data
+2025-05-28 16:15:50,632 - streamlit_logger_20250528_161549 - DEBUG - Processing order 149/154288: SKU=HC3Z4630A, Qty=1
+2025-05-28 16:15:50,633 - streamlit_logger_20250528_161549 - INFO - SKU HC3Z4630A was not in given sku data
+2025-05-28 16:15:50,633 - streamlit_logger_20250528_161549 - DEBUG - Processing order 150/154288: SKU=GN1Z14D189B, Qty=1
+2025-05-28 16:15:50,637 - streamlit_logger_20250528_161549 - INFO - sku GN1Z14D189B in bin 5378 qty in bin 1.0
+2025-05-28 16:15:50,637 - streamlit_logger_20250528_161549 - INFO - 1 units of sku GN1Z14D189B can be picked entirely from bin 5378 with pre-pick qty of 1.0
+2025-05-28 16:15:50,639 - streamlit_logger_20250528_161549 - INFO - sku GN1Z14D189B had 12 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,639 - streamlit_logger_20250528_161549 - INFO -  sku GN1Z14D189B picked all items in compartment 2 of bin 5378. Now it will be marked empty.
+2025-05-28 16:15:50,641 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,642 - streamlit_logger_20250528_161549 - INFO - success marking bin 5378 compartment 2 as empty
+2025-05-28 16:15:50,645 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku GN1Z14D189B
+2025-05-28 16:15:50,646 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,647 - streamlit_logger_20250528_161549 - DEBUG - Processing order 151/154288: SKU=ML3Z9C888BA, Qty=1
+2025-05-28 16:15:50,653 - streamlit_logger_20250528_161549 - INFO - sku ML3Z9C888BA in bin 5551 qty in bin 1.0
+2025-05-28 16:15:50,653 - streamlit_logger_20250528_161549 - INFO - 1 units of sku ML3Z9C888BA can be picked entirely from bin 5551 with pre-pick qty of 1.0
+2025-05-28 16:15:50,655 - streamlit_logger_20250528_161549 - INFO - sku ML3Z9C888BA had 12 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,655 - streamlit_logger_20250528_161549 - INFO -  sku ML3Z9C888BA picked all items in compartment 8 of bin 5551. Now it will be marked empty.
+2025-05-28 16:15:50,657 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,658 - streamlit_logger_20250528_161549 - INFO - success marking bin 5551 compartment 8 as empty
+2025-05-28 16:15:50,661 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku ML3Z9C888BA
+2025-05-28 16:15:50,663 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,664 - streamlit_logger_20250528_161549 - DEBUG - Processing order 152/154288: SKU=LC5Z10B776AA, Qty=1
+2025-05-28 16:15:50,668 - streamlit_logger_20250528_161549 - INFO - sku LC5Z10B776AA in bin 5500 qty in bin 1.0
+2025-05-28 16:15:50,668 - streamlit_logger_20250528_161549 - INFO - 1 units of sku LC5Z10B776AA can be picked entirely from bin 5500 with pre-pick qty of 1.0
+2025-05-28 16:15:50,670 - streamlit_logger_20250528_161549 - INFO - sku LC5Z10B776AA had 5 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,670 - streamlit_logger_20250528_161549 - INFO -  sku LC5Z10B776AA picked all items in compartment 8 of bin 5500. Now it will be marked empty.
+2025-05-28 16:15:50,671 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,672 - streamlit_logger_20250528_161549 - INFO - success marking bin 5500 compartment 8 as empty
+2025-05-28 16:15:50,675 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku LC5Z10B776AA
+2025-05-28 16:15:50,677 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,678 - streamlit_logger_20250528_161549 - DEBUG - Processing order 153/154288: SKU=6L2Z7H360BA, Qty=1
+2025-05-28 16:15:50,681 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7H360BA in bin 4925 qty in bin 1.0
+2025-05-28 16:15:50,682 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 6L2Z7H360BA can be picked entirely from bin 4925 with pre-pick qty of 1.0
+2025-05-28 16:15:50,684 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7H360BA had 4 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,684 - streamlit_logger_20250528_161549 - INFO -  sku 6L2Z7H360BA picked all items in compartment 8 of bin 4925. Now it will be marked empty.
+2025-05-28 16:15:50,686 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,687 - streamlit_logger_20250528_161549 - INFO - success marking bin 4925 compartment 8 as empty
+2025-05-28 16:15:50,692 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 6L2Z7H360BA
+2025-05-28 16:15:50,694 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,695 - streamlit_logger_20250528_161549 - DEBUG - Processing order 154/154288: SKU=7T4Z6140A, Qty=1
+2025-05-28 16:15:50,699 - streamlit_logger_20250528_161549 - INFO - sku 7T4Z6140A in bin 4956 qty in bin 1.0
+2025-05-28 16:15:50,699 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 7T4Z6140A can be picked entirely from bin 4956 with pre-pick qty of 1.0
+2025-05-28 16:15:50,702 - streamlit_logger_20250528_161549 - INFO - sku 7T4Z6140A had 3 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,702 - streamlit_logger_20250528_161549 - INFO -  sku 7T4Z6140A picked all items in compartment 6 of bin 4956. Now it will be marked empty.
+2025-05-28 16:15:50,704 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,705 - streamlit_logger_20250528_161549 - INFO - success marking bin 4956 compartment 6 as empty
+2025-05-28 16:15:50,710 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 7T4Z6140A
+2025-05-28 16:15:50,711 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,712 - streamlit_logger_20250528_161549 - DEBUG - Processing order 155/154288: SKU=6L2Z7C122C, Qty=1
+2025-05-28 16:15:50,717 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7C122C in bin 4923 qty in bin 1.0
+2025-05-28 16:15:50,717 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 6L2Z7C122C can be picked entirely from bin 4923 with pre-pick qty of 1.0
+2025-05-28 16:15:50,719 - streamlit_logger_20250528_161549 - INFO - sku 6L2Z7C122C had 10 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,719 - streamlit_logger_20250528_161549 - INFO -  sku 6L2Z7C122C picked all items in compartment 7 of bin 4923. Now it will be marked empty.
+2025-05-28 16:15:50,721 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,721 - streamlit_logger_20250528_161549 - INFO - success marking bin 4923 compartment 7 as empty
+2025-05-28 16:15:50,725 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 6L2Z7C122C
+2025-05-28 16:15:50,726 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,727 - streamlit_logger_20250528_161549 - DEBUG - Processing order 156/154288: SKU=ML3Z1506072BB, Qty=1
+2025-05-28 16:15:50,728 - streamlit_logger_20250528_161549 - INFO - SKU ML3Z1506072BB was not in given sku data
+2025-05-28 16:15:50,728 - streamlit_logger_20250528_161549 - DEBUG - Processing order 157/154288: SKU=F37Z17796A, Qty=1
+2025-05-28 16:15:50,732 - streamlit_logger_20250528_161549 - INFO - sku F37Z17796A in bin 4382 qty in bin 1.0
+2025-05-28 16:15:50,732 - streamlit_logger_20250528_161549 - INFO - 1 units of sku F37Z17796A can be picked entirely from bin 4382 with pre-pick qty of 1.0
+2025-05-28 16:15:50,734 - streamlit_logger_20250528_161549 - INFO - sku F37Z17796A had 5 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,734 - streamlit_logger_20250528_161549 - INFO -  sku F37Z17796A picked all items in compartment 1 of bin 4382. Now it will be marked empty.
+2025-05-28 16:15:50,736 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,737 - streamlit_logger_20250528_161549 - INFO - success marking bin 4382 compartment 1 as empty
+2025-05-28 16:15:50,741 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku F37Z17796A
+2025-05-28 16:15:50,743 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,744 - streamlit_logger_20250528_161549 - DEBUG - Processing order 158/154288: SKU=6C2Z1700A, Qty=1
+2025-05-28 16:15:50,745 - streamlit_logger_20250528_161549 - INFO - SKU 6C2Z1700A was not in given sku data
+2025-05-28 16:15:50,746 - streamlit_logger_20250528_161549 - DEBUG - Processing order 159/154288: SKU=3U2Z14S411BKA, Qty=1
+2025-05-28 16:15:50,746 - streamlit_logger_20250528_161549 - INFO - SKU 3U2Z14S411BKA was not in given sku data
+2025-05-28 16:15:50,746 - streamlit_logger_20250528_161549 - DEBUG - Processing order 160/154288: SKU=3U2Z14S411BKA, Qty=1
+2025-05-28 16:15:50,747 - streamlit_logger_20250528_161549 - INFO - SKU 3U2Z14S411BKA was not in given sku data
+2025-05-28 16:15:50,747 - streamlit_logger_20250528_161549 - DEBUG - Processing order 161/154288: SKU=3U2Z14S411BKA, Qty=1
+2025-05-28 16:15:50,748 - streamlit_logger_20250528_161549 - INFO - SKU 3U2Z14S411BKA was not in given sku data
+2025-05-28 16:15:50,748 - streamlit_logger_20250528_161549 - DEBUG - Processing order 162/154288: SKU=BR3Z8678A, Qty=1
+2025-05-28 16:15:50,749 - streamlit_logger_20250528_161549 - INFO - SKU BR3Z8678A was not in given sku data
+2025-05-28 16:15:50,749 - streamlit_logger_20250528_161549 - DEBUG - Processing order 163/154288: SKU=3U2Z14S411BKA, Qty=1
+2025-05-28 16:15:50,750 - streamlit_logger_20250528_161549 - INFO - SKU 3U2Z14S411BKA was not in given sku data
+2025-05-28 16:15:50,750 - streamlit_logger_20250528_161549 - DEBUG - Processing order 164/154288: SKU=3U2Z14S411BKA, Qty=1
+2025-05-28 16:15:50,750 - streamlit_logger_20250528_161549 - INFO - SKU 3U2Z14S411BKA was not in given sku data
+2025-05-28 16:15:50,751 - streamlit_logger_20250528_161549 - DEBUG - Processing order 165/154288: SKU=ML3Z14526B, Qty=1
+2025-05-28 16:15:50,751 - streamlit_logger_20250528_161549 - INFO - SKU ML3Z14526B was not in given sku data
+2025-05-28 16:15:50,751 - streamlit_logger_20250528_161549 - DEBUG - Processing order 166/154288: SKU=CT4Z17K707H, Qty=1
+2025-05-28 16:15:50,752 - streamlit_logger_20250528_161549 - INFO - SKU CT4Z17K707H was not in given sku data
+2025-05-28 16:15:50,752 - streamlit_logger_20250528_161549 - DEBUG - Processing order 167/154288: SKU=6C2Z1521452AA, Qty=1
+2025-05-28 16:15:50,753 - streamlit_logger_20250528_161549 - INFO - SKU 6C2Z1521452AA was not in given sku data
+2025-05-28 16:15:50,753 - streamlit_logger_20250528_161549 - DEBUG - Processing order 168/154288: SKU=JR3Z6108A, Qty=1
+2025-05-28 16:15:50,757 - streamlit_logger_20250528_161549 - INFO - sku JR3Z6108A in bin 2954 qty in bin 1.0
+2025-05-28 16:15:50,758 - streamlit_logger_20250528_161549 - INFO - 1 units of sku JR3Z6108A can be picked entirely from bin 2954 with pre-pick qty of 1.0
+2025-05-28 16:15:50,759 - streamlit_logger_20250528_161549 - INFO - sku JR3Z6108A had 2 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,760 - streamlit_logger_20250528_161549 - INFO -  sku JR3Z6108A picked all items in compartment 2 of bin 2954. Now it will be marked empty.
+2025-05-28 16:15:50,761 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,762 - streamlit_logger_20250528_161549 - INFO - success marking bin 2954 compartment 2 as empty
+2025-05-28 16:15:50,765 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku JR3Z6108A
+2025-05-28 16:15:50,767 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,768 - streamlit_logger_20250528_161549 - DEBUG - Processing order 169/154288: SKU=KK4Z6126810C, Qty=1
+2025-05-28 16:15:50,769 - streamlit_logger_20250528_161549 - INFO - SKU KK4Z6126810C was not in given sku data
+2025-05-28 16:15:50,769 - streamlit_logger_20250528_161549 - DEBUG - Processing order 170/154288: SKU=KK4Z6126810C, Qty=1
+2025-05-28 16:15:50,769 - streamlit_logger_20250528_161549 - INFO - SKU KK4Z6126810C was not in given sku data
+2025-05-28 16:15:50,770 - streamlit_logger_20250528_161549 - DEBUG - Processing order 171/154288: SKU=BC3Z13350AA, Qty=1
+2025-05-28 16:15:50,774 - streamlit_logger_20250528_161549 - INFO - sku BC3Z13350AA in bin 5058 qty in bin 1.0
+2025-05-28 16:15:50,775 - streamlit_logger_20250528_161549 - INFO - 1 units of sku BC3Z13350AA can be picked entirely from bin 5058 with pre-pick qty of 1.0
+2025-05-28 16:15:50,776 - streamlit_logger_20250528_161549 - INFO - sku BC3Z13350AA had 10 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,776 - streamlit_logger_20250528_161549 - INFO -  sku BC3Z13350AA picked all items in compartment 3 of bin 5058. Now it will be marked empty.
+2025-05-28 16:15:50,778 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,778 - streamlit_logger_20250528_161549 - INFO - success marking bin 5058 compartment 3 as empty
+2025-05-28 16:15:50,782 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku BC3Z13350AA
+2025-05-28 16:15:50,786 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,787 - streamlit_logger_20250528_161549 - DEBUG - Processing order 172/154288: SKU=LB5Z17603D, Qty=1
+2025-05-28 16:15:50,791 - streamlit_logger_20250528_161549 - INFO - sku LB5Z17603D in bin 4479 qty in bin 1.0
+2025-05-28 16:15:50,791 - streamlit_logger_20250528_161549 - INFO - 1 units of sku LB5Z17603D can be picked entirely from bin 4479 with pre-pick qty of 1.0
+2025-05-28 16:15:50,793 - streamlit_logger_20250528_161549 - INFO - sku LB5Z17603D had 2 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,793 - streamlit_logger_20250528_161549 - INFO -  sku LB5Z17603D picked all items in compartment 3 of bin 4479. Now it will be marked empty.
+2025-05-28 16:15:50,794 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,795 - streamlit_logger_20250528_161549 - INFO - success marking bin 4479 compartment 3 as empty
+2025-05-28 16:15:50,799 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku LB5Z17603D
+2025-05-28 16:15:50,800 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,801 - streamlit_logger_20250528_161549 - DEBUG - Processing order 173/154288: SKU=JL7Z18808F, Qty=1
+2025-05-28 16:15:50,802 - streamlit_logger_20250528_161549 - INFO - SKU JL7Z18808F was not in given sku data
+2025-05-28 16:15:50,802 - streamlit_logger_20250528_161549 - DEBUG - Processing order 174/154288: SKU=HL3Z6148A, Qty=1
+2025-05-28 16:15:50,803 - streamlit_logger_20250528_161549 - INFO - SKU HL3Z6148A was not in given sku data
+2025-05-28 16:15:50,803 - streamlit_logger_20250528_161549 - DEBUG - Processing order 175/154288: SKU=7T4Z19E889A, Qty=1
+2025-05-28 16:15:50,803 - streamlit_logger_20250528_161549 - INFO - SKU 7T4Z19E889A was not in given sku data
+2025-05-28 16:15:50,804 - streamlit_logger_20250528_161549 - DEBUG - Processing order 176/154288: SKU=DT1Z19H421AC, Qty=1
+2025-05-28 16:15:50,804 - streamlit_logger_20250528_161549 - INFO - SKU DT1Z19H421AC was not in given sku data
+2025-05-28 16:15:50,804 - streamlit_logger_20250528_161549 - DEBUG - Processing order 177/154288: SKU=AR3Z63406A10B, Qty=1
+2025-05-28 16:15:50,807 - streamlit_logger_20250528_161549 - INFO - sku AR3Z63406A10B in bin 474 qty in bin 4.0
+2025-05-28 16:15:50,807 - streamlit_logger_20250528_161549 - INFO - 1 units of sku AR3Z63406A10B can be picked entirely from bin 474 with pre-pick qty of 4.0
+2025-05-28 16:15:50,809 - streamlit_logger_20250528_161549 - INFO - sku AR3Z63406A10B had 4 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,810 - streamlit_logger_20250528_161549 - DEBUG - sku AR3Z63406A10B successfully picked and has units remaining in prio bin
+2025-05-28 16:15:50,810 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,811 - streamlit_logger_20250528_161549 - DEBUG - Processing order 178/154288: SKU=BH6Z5442528B, Qty=1
+2025-05-28 16:15:50,812 - streamlit_logger_20250528_161549 - INFO - SKU BH6Z5442528B was not in given sku data
+2025-05-28 16:15:50,812 - streamlit_logger_20250528_161549 - DEBUG - Processing order 179/154288: SKU=NL7Z17E811AA, Qty=1
+2025-05-28 16:15:50,812 - streamlit_logger_20250528_161549 - INFO - SKU NL7Z17E811AA was not in given sku data
+2025-05-28 16:15:50,812 - streamlit_logger_20250528_161549 - DEBUG - Processing order 180/154288: SKU=BE9Z74255A34A, Qty=1
+2025-05-28 16:15:50,813 - streamlit_logger_20250528_161549 - INFO - SKU BE9Z74255A34A was not in given sku data
+2025-05-28 16:15:50,813 - streamlit_logger_20250528_161549 - DEBUG - Processing order 181/154288: SKU=EJ7Z6758B, Qty=1
+2025-05-28 16:15:50,817 - streamlit_logger_20250528_161549 - INFO - sku EJ7Z6758B in bin 5231 qty in bin 1.0
+2025-05-28 16:15:50,817 - streamlit_logger_20250528_161549 - INFO - 1 units of sku EJ7Z6758B can be picked entirely from bin 5231 with pre-pick qty of 1.0
+2025-05-28 16:15:50,820 - streamlit_logger_20250528_161549 - INFO - sku EJ7Z6758B had 13 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,820 - streamlit_logger_20250528_161549 - INFO -  sku EJ7Z6758B picked all items in compartment 3 of bin 5231. Now it will be marked empty.
+2025-05-28 16:15:50,822 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,824 - streamlit_logger_20250528_161549 - INFO - success marking bin 5231 compartment 3 as empty
+2025-05-28 16:15:50,828 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku EJ7Z6758B
+2025-05-28 16:15:50,829 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,830 - streamlit_logger_20250528_161549 - DEBUG - Processing order 182/154288: SKU=F8TZ15218A42A, Qty=1
+2025-05-28 16:15:50,836 - streamlit_logger_20250528_161549 - INFO - sku F8TZ15218A42A in bin 5310 qty in bin 1.0
+2025-05-28 16:15:50,837 - streamlit_logger_20250528_161549 - INFO - 1 units of sku F8TZ15218A42A can be picked entirely from bin 5310 with pre-pick qty of 1.0
+2025-05-28 16:15:50,840 - streamlit_logger_20250528_161549 - INFO - sku F8TZ15218A42A had 4 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,840 - streamlit_logger_20250528_161549 - INFO -  sku F8TZ15218A42A picked all items in compartment 6 of bin 5310. Now it will be marked empty.
+2025-05-28 16:15:50,841 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,842 - streamlit_logger_20250528_161549 - INFO - success marking bin 5310 compartment 6 as empty
+2025-05-28 16:15:50,845 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku F8TZ15218A42A
+2025-05-28 16:15:50,847 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,848 - streamlit_logger_20250528_161549 - DEBUG - Processing order 183/154288: SKU=8C3Z19893AA, Qty=1
+2025-05-28 16:15:50,849 - streamlit_logger_20250528_161549 - INFO - SKU 8C3Z19893AA was not in given sku data
+2025-05-28 16:15:50,849 - streamlit_logger_20250528_161549 - DEBUG - Processing order 184/154288: SKU=9L3Z5586A, Qty=1
+2025-05-28 16:15:50,853 - streamlit_logger_20250528_161549 - INFO - sku 9L3Z5586A in bin 5002 qty in bin 1.0
+2025-05-28 16:15:50,854 - streamlit_logger_20250528_161549 - INFO - 1 units of sku 9L3Z5586A can be picked entirely from bin 5002 with pre-pick qty of 1.0
+2025-05-28 16:15:50,855 - streamlit_logger_20250528_161549 - INFO - sku 9L3Z5586A had 9 bins above in the stack. It will now be popped to the top of the stack
+2025-05-28 16:15:50,855 - streamlit_logger_20250528_161549 - INFO -  sku 9L3Z5586A picked all items in compartment 2 of bin 5002. Now it will be marked empty.
+2025-05-28 16:15:50,857 - streamlit_logger_20250528_161549 - DEBUG - confirmed - qty in bin is 0.0
+2025-05-28 16:15:50,857 - streamlit_logger_20250528_161549 - INFO - success marking bin 5002 compartment 2 as empty
+2025-05-28 16:15:50,860 - streamlit_logger_20250528_161549 - ERROR - No priority 1 bin for sku 9L3Z5586A
+2025-05-28 16:15:50,861 - streamlit_logger_20250528_161549 - DEBUG - check refill called
+2025-05-28 16:15:50,862 - streamlit_logger_20250528_161549 - DEBUG - Processing order 185/154288: SKU=8C3Z19893AA, Qty=1
+2025-05-28 16:15:50,863 - streamlit_logger_20250528_161549 - INFO - SKU 8C3Z19893AA was not in given sku data
+2025-05-28 16:15:50,863 - streamlit_logger_20250528_161549 - DEBUG - Processing order 186/154288: SKU=9L3Z5586A, Qty=1

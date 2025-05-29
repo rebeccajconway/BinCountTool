@@ -1,0 +1,19 @@
+[client]
+showErrorDetails = true
+showSidebarNavigation = true
+toolbarMode = "minimal"
+
+[runner]
+enforceSerializableSessionState = true
+
+
+[theme]
+base = "dark"
+primaryColor = "#e11b22"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#ffffff"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
