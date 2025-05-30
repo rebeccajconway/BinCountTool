@@ -9,6 +9,7 @@ import math
 
 from components import setup_logger
 from datasets import MasterDataSets
+from data_check import DataConsistencyChecker
 
 
 class Sim:
@@ -59,6 +60,17 @@ class Sim:
                 st.session_state['count_insufficient_qty'] = count_insufficient_qty
                 st.session_state['count_total_input_lines'] = self.num_rows
                 print("session state saved")
+                
+                data_ok = DataConsistencyChecker.adaptive_check(i, "session backup")
+                if not data_ok:
+                    self.logger.critical(f"Data inconsistency detected at line {i}. Stopping simulation.")
+                    st.error(f"🛑 SIMULATION STOPPED: Data inconsistency at line {i}")
+                    st.session_state['simulation_stopped_early'] = True
+                    break  # Exit the for loop, same as stop button logic
+                else:
+                    print(f"data ok at line {i}")
+                    self.logger.debug(f"data check passed at line {i}")
+
 
             check_restock: bool = False
 
@@ -139,7 +151,7 @@ class Sim:
                     qty_remaining = qty_needed
                     
                     # 2b. Update qty in system
-                    MasterDataSets.update_sku_qty(target_sku, qty_needed) # update sku_live_df
+                    MasterDataSets.update_sku_qty(target_sku, -qty_needed) # update sku_live_df
                     
                     while qty_remaining > 0:
                         bin_info = MasterDataSets.get_bin_compartment_contents(prio_bin, target_sku)

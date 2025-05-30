@@ -327,12 +327,14 @@ elif st.session_state["results_ready"] is True:
             col1.metric(label = "Number of Incomplete Rows in Outbound Data", value = st.session_state['number_incomplete_outbound'])
             col2.metric(label="# of Complete Rows in Outbound Data", value = st.session_state['number_complete_outbound'])
             
+            simulation_results_df = simulation_results_df.copy()
             simulation_results_df['date'] = simulation_results_df['timestamp'].dt.date # Extract date from timestamp
 
             col1a, col2a = st.columns(2)
             with col1a:
                 pick_orders_df = st.session_state['pick_orders_df'] #pd.DataFrame(st.session_state['pick_orders_df'])
 
+                pick_orders_df = pick_orders_df.copy()
                 pick_orders_df['date'] = pick_orders_df['timestamp'].dt.date
 
                 pick_orders_df_filtered = pick_orders_df.dropna(subset=['bins_above'])
